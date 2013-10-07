@@ -1,0 +1,112 @@
+[submodule "nova"]
+	path = nova
+	url = https://review.openstack.org/openstack/nova.git
+    branch = .
+[submodule "ceilometer"]
+	path = ceilometer
+	url = https://review.openstack.org/openstack/ceilometer.git
+    branch = .
+[submodule "cinder"]
+	path = cinder
+	url = https://review.openstack.org/openstack/cinder.git
+    branch = .
+[submodule "django_openstack_auth"]
+	path = django_openstack_auth
+	url = https://review.openstack.org/openstack/django_openstack_auth.git
+    branch = .
+[submodule "glance"]
+	path = glance
+	url = https://review.openstack.org/openstack/glance.git
+    branch = .
+[submodule "heat"]
+	path = heat
+	url = https://review.openstack.org/openstack/heat.git
+    branch = .
+[submodule "horizon"]
+	path = horizon
+	url = https://review.openstack.org/openstack/horizon.git
+    branch = .
+[submodule "keystone"]
+	path = keystone
+	url = https://review.openstack.org/openstack/keystone.git
+    branch = .
+[submodule "neutron"]
+	path = neutron
+	url = https://review.openstack.org/openstack/neutron.git
+    branch = .
+[submodule "oslo.config"]
+	path = oslo.config
+	url = https://review.openstack.org/openstack/oslo.config.git
+    branch = .
+[submodule "oslo.messaging"]
+	path = oslo.messaging
+	url = https://review.openstack.org/openstack/oslo.messaging.git
+    branch = .
+[submodule "python-ceilometerclient"]
+	path = python-ceilometerclient
+	url = https://review.openstack.org/openstack/python-ceilometerclient.git
+    branch = .
+[submodule "python-cinderclient"]
+	path = python-cinderclient
+	url = https://review.openstack.org/openstack/python-cinderclient.git
+    branch = .
+[submodule "python-glanceclient"]
+	path = python-glanceclient
+	url = https://review.openstack.org/openstack/python-glanceclient.git
+    branch = .
+[submodule "python-heatclient"]
+	path = python-heatclient
+	url = https://review.openstack.org/openstack/python-heatclient.git
+    branch = .
+[submodule "python-keystoneclient"]
+	path = python-keystoneclient
+	url = https://review.openstack.org/openstack/python-keystoneclient.git
+    branch = .
+[submodule "python-neutronclient"]
+	path = python-neutronclient
+	url = https://review.openstack.org/openstack/python-neutronclient.git
+    branch = .
+[submodule "python-novaclient"]
+	path = python-novaclient
+	url = https://review.openstack.org/openstack/python-novaclient.git
+    branch = .
+[submodule "python-openstackclient"]
+	path = python-openstackclient
+	url = https://review.openstack.org/openstack/python-openstackclient.git
+    branch = .
+[submodule "python-swiftclient"]
+	path = python-swiftclient
+	url = https://review.openstack.org/openstack/python-swiftclient.git
+    branch = .
+[submodule "python-troveclient"]
+	path = python-troveclient
+	url = https://review.openstack.org/openstack/python-troveclient.git
+    branch = .
+[submodule "requirements"]
+	path = requirements
+	url = https://review.openstack.org/openstack/requirements.git
+    branch = .
+[submodule "swift"]
+	path = swift
+	url = https://review.openstack.org/openstack/swift.git
+    branch = .
+[submodule "tempest"]
+	path = tempest
+	url = https://review.openstack.org/openstack/tempest.git
+    branch = .
+[submodule "trove"]
+	path = trove
+	url = https://review.openstack.org/openstack/trove.git
+    branch = .
+[submodule "pbr"]
+	path = pbr
+	url = https://review.openstack.org/openstack-dev/pbr.git
+    branch = .
+[submodule "devstack"]
+	path = devstack
+	url = https://review.openstack.org/openstack-dev/devstack.git
+    branch = .
+[submodule "devstack-gate"]
+	path = devstack-gate
+	url = https://review.openstack.org/openstack-infra/devstack-gate.git
+    branch = .
