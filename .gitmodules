@@ -1,15 +1,15 @@
 [submodule "nova"]
 	path = nova
 	url = https://review.openstack.org/openstack/nova.git
-    branch = .
+    branch = stable/havana
 [submodule "ceilometer"]
 	path = ceilometer
 	url = https://review.openstack.org/openstack/ceilometer.git
-    branch = .
+    branch = stable/havana
 [submodule "cinder"]
 	path = cinder
 	url = https://review.openstack.org/openstack/cinder.git
-    branch = .
+    branch = stable/havana
 [submodule "django_openstack_auth"]
 	path = django_openstack_auth
 	url = https://review.openstack.org/openstack/django_openstack_auth.git
@@ -17,31 +17,31 @@
 [submodule "glance"]
 	path = glance
 	url = https://review.openstack.org/openstack/glance.git
-    branch = .
+    branch = stable/havana
 [submodule "heat"]
 	path = heat
 	url = https://review.openstack.org/openstack/heat.git
-    branch = .
+    branch = stable/havana
 [submodule "horizon"]
 	path = horizon
 	url = https://review.openstack.org/openstack/horizon.git
-    branch = .
+    branch = stable/havana
 [submodule "keystone"]
 	path = keystone
 	url = https://review.openstack.org/openstack/keystone.git
-    branch = .
+    branch = stable/havana
 [submodule "neutron"]
 	path = neutron
 	url = https://review.openstack.org/openstack/neutron.git
-    branch = .
+    branch = stable/havana
 [submodule "oslo.config"]
 	path = oslo.config
 	url = https://review.openstack.org/openstack/oslo.config.git
-    branch = .
+    branch = stable/havana
 [submodule "oslo.messaging"]
 	path = oslo.messaging
 	url = https://review.openstack.org/openstack/oslo.messaging.git
-    branch = .
+    branch = stable/havana
 [submodule "python-ceilometerclient"]
 	path = python-ceilometerclient
 	url = https://review.openstack.org/openstack/python-ceilometerclient.git
@@ -85,19 +85,15 @@
 [submodule "requirements"]
 	path = requirements
 	url = https://review.openstack.org/openstack/requirements.git
-    branch = .
+    branch = stable/havana
 [submodule "swift"]
 	path = swift
 	url = https://review.openstack.org/openstack/swift.git
-    branch = .
+    branch = stable/havana
 [submodule "tempest"]
 	path = tempest
 	url = https://review.openstack.org/openstack/tempest.git
-    branch = .
-[submodule "trove"]
-	path = trove
-	url = https://review.openstack.org/openstack/trove.git
-    branch = .
+    branch = stable/havana
 [submodule "pbr"]
 	path = pbr
 	url = https://review.openstack.org/openstack-dev/pbr.git
@@ -105,7 +101,7 @@
 [submodule "devstack"]
 	path = devstack
 	url = https://review.openstack.org/openstack-dev/devstack.git
-    branch = .
+    branch = stable/havana
 [submodule "devstack-gate"]
 	path = devstack-gate
 	url = https://review.openstack.org/openstack-infra/devstack-gate.git
