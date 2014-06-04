@@ -1,0 +1,60 @@
+#!/usr/bin/python
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may
+# not use this file except in compliance with the License. You may obtain
+# a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+# WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+# License for the specific language governing permissions and limitations
+# under the License.
+
+
+import urllib
+import yaml
+
+TEMPLATE = """[submodule "%s"]
+\tpath = %s
+\turl = https://review.openstack.org/%s.git
+\tbranch = .
+"""
+
+CONFIG = ('http://git.openstack.org/cgit/openstack-infra/config/plain/modules'
+          '/openstack_project/files/zuul/layout.yaml')
+
+
+def find_integrated_gate_projects():
+    s = urllib.urlopen(CONFIG)
+    layout = yaml.load(s)
+    # there are multiple allowed gate templates that all interact
+    gates = ('integrated-gate', 'integrated-gate-neutron', 'integrated-gate-sahara')
+    projects = []
+    for project in layout['projects']:
+        if 'template' in project:
+            for gate in gates:
+                if gate in [x['name'] for x in project['template']]:
+                    projects.append(project['name'])
+    return projects
+
+
+def gen_gitmodules(projects):
+    projects = sorted(projects)
+    with open(".gitmodules", 'w') as f:
+        for p in projects:
+            ns, name = p.split('/')
+            f.write(TEMPLATE % (name, name, p))
+
+
+def main():
+    projects = find_integrated_gate_projects()
+    # add extra projects that aren't found by being part of integrated gate
+    projects.append('openstack/ceilometer')
+    projects.append('openstack/oslo-incubator')
+    gen_gitmodules(projects)
+
+
+if __name__ == '__main__':
+    main()
