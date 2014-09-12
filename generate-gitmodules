@@ -51,7 +51,6 @@ def gen_gitmodules(projects):
 def main():
     projects = find_integrated_gate_projects()
     # add extra projects that aren't found by being part of integrated gate
-    projects.append('openstack/ceilometer')
     projects.append('openstack/oslo-incubator')
     gen_gitmodules(projects)
 
