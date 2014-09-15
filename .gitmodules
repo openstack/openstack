@@ -30,6 +30,10 @@
 	path = glance
 	url = https://review.openstack.org/openstack/glance.git
 	branch = .
+[submodule "glance_store"]
+	path = glance_store
+	url = https://review.openstack.org/openstack/glance_store.git
+	branch = .
 [submodule "heat"]
 	path = heat
 	url = https://review.openstack.org/openstack/heat.git
@@ -41,6 +45,10 @@
 [submodule "keystone"]
 	path = keystone
 	url = https://review.openstack.org/openstack/keystone.git
+	branch = .
+[submodule "keystonemiddleware"]
+	path = keystonemiddleware
+	url = https://review.openstack.org/openstack/keystonemiddleware.git
 	branch = .
 [submodule "neutron"]
 	path = neutron
@@ -54,6 +62,10 @@
 	path = oslo-incubator
 	url = https://review.openstack.org/openstack/oslo-incubator.git
 	branch = .
+[submodule "oslo.concurrency"]
+	path = oslo.concurrency
+	url = https://review.openstack.org/openstack/oslo.concurrency.git
+	branch = .
 [submodule "oslo.config"]
 	path = oslo.config
 	url = https://review.openstack.org/openstack/oslo.config.git
@@ -66,13 +78,29 @@
 	path = oslo.i18n
 	url = https://review.openstack.org/openstack/oslo.i18n.git
 	branch = .
+[submodule "oslo.log"]
+	path = oslo.log
+	url = https://review.openstack.org/openstack/oslo.log.git
+	branch = .
 [submodule "oslo.messaging"]
 	path = oslo.messaging
 	url = https://review.openstack.org/openstack/oslo.messaging.git
 	branch = .
+[submodule "oslo.middleware"]
+	path = oslo.middleware
+	url = https://review.openstack.org/openstack/oslo.middleware.git
+	branch = .
 [submodule "oslo.rootwrap"]
 	path = oslo.rootwrap
 	url = https://review.openstack.org/openstack/oslo.rootwrap.git
+	branch = .
+[submodule "oslo.serialization"]
+	path = oslo.serialization
+	url = https://review.openstack.org/openstack/oslo.serialization.git
+	branch = .
+[submodule "oslo.utils"]
+	path = oslo.utils
+	url = https://review.openstack.org/openstack/oslo.utils.git
 	branch = .
 [submodule "oslo.version"]
 	path = oslo.version
@@ -85,6 +113,10 @@
 [submodule "pycadf"]
 	path = pycadf
 	url = https://review.openstack.org/openstack/pycadf.git
+	branch = .
+[submodule "pylockfile"]
+	path = pylockfile
+	url = https://review.openstack.org/openstack/pylockfile.git
 	branch = .
 [submodule "python-ceilometerclient"]
 	path = python-ceilometerclient
@@ -157,6 +189,10 @@
 [submodule "tempest"]
 	path = tempest
 	url = https://review.openstack.org/openstack/tempest.git
+	branch = .
+[submodule "tempest-lib"]
+	path = tempest-lib
+	url = https://review.openstack.org/openstack/tempest-lib.git
 	branch = .
 [submodule "trove"]
 	path = trove
