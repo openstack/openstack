@@ -1,66 +1,722 @@
+[submodule "bashate"]
+	path = bashate
+	url = https://review.openstack.org/openstack-dev/bashate.git
+	branch = .
+[submodule "ci-sandbox"]
+	path = ci-sandbox
+	url = https://review.openstack.org/openstack-dev/ci-sandbox.git
+	branch = .
+[submodule "cookiecutter"]
+	path = cookiecutter
+	url = https://review.openstack.org/openstack-dev/cookiecutter.git
+	branch = .
 [submodule "devstack"]
 	path = devstack
 	url = https://review.openstack.org/openstack-dev/devstack.git
+	branch = .
+[submodule "devstack-vagrant"]
+	path = devstack-vagrant
+	url = https://review.openstack.org/openstack-dev/devstack-vagrant.git
+	branch = .
+[submodule "grenade"]
+	path = grenade
+	url = https://review.openstack.org/openstack-dev/grenade.git
+	branch = .
+[submodule "hacking"]
+	path = hacking
+	url = https://review.openstack.org/openstack-dev/hacking.git
+	branch = .
+[submodule "heat-cfnclient"]
+	path = heat-cfnclient
+	url = https://review.openstack.org/openstack-dev/heat-cfnclient.git
+	branch = .
+[submodule "openstack-nose"]
+	path = openstack-nose
+	url = https://review.openstack.org/openstack-dev/openstack-nose.git
+	branch = .
+[submodule "oslo-cookiecutter"]
+	path = oslo-cookiecutter
+	url = https://review.openstack.org/openstack-dev/oslo-cookiecutter.git
 	branch = .
 [submodule "pbr"]
 	path = pbr
 	url = https://review.openstack.org/openstack-dev/pbr.git
 	branch = .
+[submodule "sandbox"]
+	path = sandbox
+	url = https://review.openstack.org/openstack-dev/sandbox.git
+	branch = .
+[submodule "specs-cookiecutter"]
+	path = specs-cookiecutter
+	url = https://review.openstack.org/openstack-dev/specs-cookiecutter.git
+	branch = .
+[submodule "activity-board"]
+	path = activity-board
+	url = https://review.openstack.org/openstack-infra/activity-board.git
+	branch = .
+[submodule "askbot-theme"]
+	path = askbot-theme
+	url = https://review.openstack.org/openstack-infra/askbot-theme.git
+	branch = .
+[submodule "bugdaystats"]
+	path = bugdaystats
+	url = https://review.openstack.org/openstack-infra/bugdaystats.git
+	branch = .
 [submodule "devstack-gate"]
 	path = devstack-gate
 	url = https://review.openstack.org/openstack-infra/devstack-gate.git
+	branch = .
+[submodule "elastic-recheck"]
+	path = elastic-recheck
+	url = https://review.openstack.org/openstack-infra/elastic-recheck.git
+	branch = .
+[submodule "gear"]
+	path = gear
+	url = https://review.openstack.org/openstack-infra/gear.git
+	branch = .
+[submodule "gearman-plugin"]
+	path = gearman-plugin
+	url = https://review.openstack.org/openstack-infra/gearman-plugin.git
+	branch = .
+[submodule "gerrit"]
+	path = gerrit
+	url = https://review.openstack.org/openstack-infra/gerrit.git
+	branch = .
+[submodule "gerritbot"]
+	path = gerritbot
+	url = https://review.openstack.org/openstack-infra/gerritbot.git
+	branch = .
+[submodule "gerritlib"]
+	path = gerritlib
+	url = https://review.openstack.org/openstack-infra/gerritlib.git
+	branch = .
+[submodule "git-review"]
+	path = git-review
+	url = https://review.openstack.org/openstack-infra/git-review.git
+	branch = .
+[submodule "gitdm"]
+	path = gitdm
+	url = https://review.openstack.org/openstack-infra/gitdm.git
+	branch = .
+[submodule "groups"]
+	path = groups
+	url = https://review.openstack.org/openstack-infra/groups.git
+	branch = .
+[submodule "groups-static-pages"]
+	path = groups-static-pages
+	url = https://review.openstack.org/openstack-infra/groups-static-pages.git
+	branch = .
+[submodule "infra-manual"]
+	path = infra-manual
+	url = https://review.openstack.org/openstack-infra/infra-manual.git
+	branch = .
+[submodule "infra-specs"]
+	path = infra-specs
+	url = https://review.openstack.org/openstack-infra/infra-specs.git
+	branch = .
+[submodule "irc-meetings"]
+	path = irc-meetings
+	url = https://review.openstack.org/openstack-infra/irc-meetings.git
+	branch = .
+[submodule "jeepyb"]
+	path = jeepyb
+	url = https://review.openstack.org/openstack-infra/jeepyb.git
+	branch = .
+[submodule "jenkins-job-builder"]
+	path = jenkins-job-builder
+	url = https://review.openstack.org/openstack-infra/jenkins-job-builder.git
+	branch = .
+[submodule "lodgeit"]
+	path = lodgeit
+	url = https://review.openstack.org/openstack-infra/lodgeit.git
+	branch = .
+[submodule "meetbot"]
+	path = meetbot
+	url = https://review.openstack.org/openstack-infra/meetbot.git
+	branch = .
+[submodule "nodepool"]
+	path = nodepool
+	url = https://review.openstack.org/openstack-infra/nodepool.git
+	branch = .
+[submodule "nose-html-output"]
+	path = nose-html-output
+	url = https://review.openstack.org/openstack-infra/nose-html-output.git
+	branch = .
+[submodule "odsreg"]
+	path = odsreg
+	url = https://review.openstack.org/openstack-infra/odsreg.git
+	branch = .
+[submodule "openstackid"]
+	path = openstackid
+	url = https://review.openstack.org/openstack-infra/openstackid.git
+	branch = .
+[submodule "openstackweb"]
+	path = openstackweb
+	url = https://review.openstack.org/openstack-infra/openstackweb.git
+	branch = .
+[submodule "os-loganalyze"]
+	path = os-loganalyze
+	url = https://review.openstack.org/openstack-infra/os-loganalyze.git
+	branch = .
+[submodule "project-config"]
+	path = project-config
+	url = https://review.openstack.org/openstack-infra/project-config.git
+	branch = .
+[submodule "publications"]
+	path = publications
+	url = https://review.openstack.org/openstack-infra/publications.git
+	branch = .
+[submodule "puppet-accessbot"]
+	path = puppet-accessbot
+	url = https://review.openstack.org/openstack-infra/puppet-accessbot.git
+	branch = .
+[submodule "puppet-ansible"]
+	path = puppet-ansible
+	url = https://review.openstack.org/openstack-infra/puppet-ansible.git
+	branch = .
+[submodule "puppet-apparmor"]
+	path = puppet-apparmor
+	url = https://review.openstack.org/openstack-infra/puppet-apparmor.git
+	branch = .
+[submodule "puppet-askbot"]
+	path = puppet-askbot
+	url = https://review.openstack.org/openstack-infra/puppet-askbot.git
+	branch = .
+[submodule "puppet-asterisk"]
+	path = puppet-asterisk
+	url = https://review.openstack.org/openstack-infra/puppet-asterisk.git
+	branch = .
+[submodule "puppet-bugdaystats"]
+	path = puppet-bugdaystats
+	url = https://review.openstack.org/openstack-infra/puppet-bugdaystats.git
+	branch = .
+[submodule "puppet-bup"]
+	path = puppet-bup
+	url = https://review.openstack.org/openstack-infra/puppet-bup.git
+	branch = .
+[submodule "puppet-cgit"]
+	path = puppet-cgit
+	url = https://review.openstack.org/openstack-infra/puppet-cgit.git
+	branch = .
+[submodule "puppet-dashboard"]
+	path = puppet-dashboard
+	url = https://review.openstack.org/openstack-infra/puppet-dashboard.git
+	branch = .
+[submodule "puppet-drupal"]
+	path = puppet-drupal
+	url = https://review.openstack.org/openstack-infra/puppet-drupal.git
+	branch = .
+[submodule "puppet-elastic_recheck"]
+	path = puppet-elastic_recheck
+	url = https://review.openstack.org/openstack-infra/puppet-elastic_recheck.git
+	branch = .
+[submodule "puppet-elasticsearch"]
+	path = puppet-elasticsearch
+	url = https://review.openstack.org/openstack-infra/puppet-elasticsearch.git
+	branch = .
+[submodule "puppet-etherpad_lite"]
+	path = puppet-etherpad_lite
+	url = https://review.openstack.org/openstack-infra/puppet-etherpad_lite.git
+	branch = .
+[submodule "puppet-exim"]
+	path = puppet-exim
+	url = https://review.openstack.org/openstack-infra/puppet-exim.git
+	branch = .
+[submodule "puppet-gerrit"]
+	path = puppet-gerrit
+	url = https://review.openstack.org/openstack-infra/puppet-gerrit.git
+	branch = .
+[submodule "puppet-gerritbot"]
+	path = puppet-gerritbot
+	url = https://review.openstack.org/openstack-infra/puppet-gerritbot.git
+	branch = .
+[submodule "puppet-github"]
+	path = puppet-github
+	url = https://review.openstack.org/openstack-infra/puppet-github.git
+	branch = .
+[submodule "puppet-graphite"]
+	path = puppet-graphite
+	url = https://review.openstack.org/openstack-infra/puppet-graphite.git
+	branch = .
+[submodule "puppet-haveged"]
+	path = puppet-haveged
+	url = https://review.openstack.org/openstack-infra/puppet-haveged.git
+	branch = .
+[submodule "puppet-httpd"]
+	path = puppet-httpd
+	url = https://review.openstack.org/openstack-infra/puppet-httpd.git
+	branch = .
+[submodule "puppet-iptables"]
+	path = puppet-iptables
+	url = https://review.openstack.org/openstack-infra/puppet-iptables.git
+	branch = .
+[submodule "puppet-jeepyb"]
+	path = puppet-jeepyb
+	url = https://review.openstack.org/openstack-infra/puppet-jeepyb.git
+	branch = .
+[submodule "puppet-jenkins"]
+	path = puppet-jenkins
+	url = https://review.openstack.org/openstack-infra/puppet-jenkins.git
+	branch = .
+[submodule "puppet-kerberos"]
+	path = puppet-kerberos
+	url = https://review.openstack.org/openstack-infra/puppet-kerberos.git
+	branch = .
+[submodule "puppet-kibana"]
+	path = puppet-kibana
+	url = https://review.openstack.org/openstack-infra/puppet-kibana.git
+	branch = .
+[submodule "puppet-lodgeit"]
+	path = puppet-lodgeit
+	url = https://review.openstack.org/openstack-infra/puppet-lodgeit.git
+	branch = .
+[submodule "puppet-log_processor"]
+	path = puppet-log_processor
+	url = https://review.openstack.org/openstack-infra/puppet-log_processor.git
+	branch = .
+[submodule "puppet-logrotate"]
+	path = puppet-logrotate
+	url = https://review.openstack.org/openstack-infra/puppet-logrotate.git
+	branch = .
+[submodule "puppet-logstash"]
+	path = puppet-logstash
+	url = https://review.openstack.org/openstack-infra/puppet-logstash.git
+	branch = .
+[submodule "puppet-mailman"]
+	path = puppet-mailman
+	url = https://review.openstack.org/openstack-infra/puppet-mailman.git
+	branch = .
+[submodule "puppet-mediawiki"]
+	path = puppet-mediawiki
+	url = https://review.openstack.org/openstack-infra/puppet-mediawiki.git
+	branch = .
+[submodule "puppet-meetbot"]
+	path = puppet-meetbot
+	url = https://review.openstack.org/openstack-infra/puppet-meetbot.git
+	branch = .
+[submodule "puppet-mysql_backup"]
+	path = puppet-mysql_backup
+	url = https://review.openstack.org/openstack-infra/puppet-mysql_backup.git
+	branch = .
+[submodule "puppet-nodepool"]
+	path = puppet-nodepool
+	url = https://review.openstack.org/openstack-infra/puppet-nodepool.git
+	branch = .
+[submodule "puppet-openafs"]
+	path = puppet-openafs
+	url = https://review.openstack.org/openstack-infra/puppet-openafs.git
+	branch = .
+[submodule "puppet-openstackid"]
+	path = puppet-openstackid
+	url = https://review.openstack.org/openstack-infra/puppet-openstackid.git
+	branch = .
+[submodule "puppet-packagekit"]
+	path = puppet-packagekit
+	url = https://review.openstack.org/openstack-infra/puppet-packagekit.git
+	branch = .
+[submodule "puppet-pip"]
+	path = puppet-pip
+	url = https://review.openstack.org/openstack-infra/puppet-pip.git
+	branch = .
+[submodule "puppet-planet"]
+	path = puppet-planet
+	url = https://review.openstack.org/openstack-infra/puppet-planet.git
+	branch = .
+[submodule "puppet-project_config"]
+	path = puppet-project_config
+	url = https://review.openstack.org/openstack-infra/puppet-project_config.git
+	branch = .
+[submodule "puppet-redis"]
+	path = puppet-redis
+	url = https://review.openstack.org/openstack-infra/puppet-redis.git
+	branch = .
+[submodule "puppet-releasestatus"]
+	path = puppet-releasestatus
+	url = https://review.openstack.org/openstack-infra/puppet-releasestatus.git
+	branch = .
+[submodule "puppet-reviewday"]
+	path = puppet-reviewday
+	url = https://review.openstack.org/openstack-infra/puppet-reviewday.git
+	branch = .
+[submodule "puppet-simpleproxy"]
+	path = puppet-simpleproxy
+	url = https://review.openstack.org/openstack-infra/puppet-simpleproxy.git
+	branch = .
+[submodule "puppet-snmpd"]
+	path = puppet-snmpd
+	url = https://review.openstack.org/openstack-infra/puppet-snmpd.git
+	branch = .
+[submodule "puppet-ssh"]
+	path = puppet-ssh
+	url = https://review.openstack.org/openstack-infra/puppet-ssh.git
+	branch = .
+[submodule "puppet-ssl_cert_check"]
+	path = puppet-ssl_cert_check
+	url = https://review.openstack.org/openstack-infra/puppet-ssl_cert_check.git
+	branch = .
+[submodule "puppet-statusbot"]
+	path = puppet-statusbot
+	url = https://review.openstack.org/openstack-infra/puppet-statusbot.git
+	branch = .
+[submodule "puppet-storyboard"]
+	path = puppet-storyboard
+	url = https://review.openstack.org/openstack-infra/puppet-storyboard.git
+	branch = .
+[submodule "puppet-subunit2sql"]
+	path = puppet-subunit2sql
+	url = https://review.openstack.org/openstack-infra/puppet-subunit2sql.git
+	branch = .
+[submodule "puppet-sudoers"]
+	path = puppet-sudoers
+	url = https://review.openstack.org/openstack-infra/puppet-sudoers.git
+	branch = .
+[submodule "puppet-tmpreaper"]
+	path = puppet-tmpreaper
+	url = https://review.openstack.org/openstack-infra/puppet-tmpreaper.git
+	branch = .
+[submodule "puppet-ulimit"]
+	path = puppet-ulimit
+	url = https://review.openstack.org/openstack-infra/puppet-ulimit.git
+	branch = .
+[submodule "puppet-unattended_upgrades"]
+	path = puppet-unattended_upgrades
+	url = https://review.openstack.org/openstack-infra/puppet-unattended_upgrades.git
+	branch = .
+[submodule "puppet-unbound"]
+	path = puppet-unbound
+	url = https://review.openstack.org/openstack-infra/puppet-unbound.git
+	branch = .
+[submodule "puppet-user"]
+	path = puppet-user
+	url = https://review.openstack.org/openstack-infra/puppet-user.git
+	branch = .
+[submodule "puppet-vcsrepo"]
+	path = puppet-vcsrepo
+	url = https://review.openstack.org/openstack-infra/puppet-vcsrepo.git
+	branch = .
+[submodule "puppet-vinz"]
+	path = puppet-vinz
+	url = https://review.openstack.org/openstack-infra/puppet-vinz.git
+	branch = .
+[submodule "puppet-yum"]
+	path = puppet-yum
+	url = https://review.openstack.org/openstack-infra/puppet-yum.git
+	branch = .
+[submodule "puppet-zanata"]
+	path = puppet-zanata
+	url = https://review.openstack.org/openstack-infra/puppet-zanata.git
+	branch = .
+[submodule "puppet-zuul"]
+	path = puppet-zuul
+	url = https://review.openstack.org/openstack-infra/puppet-zuul.git
+	branch = .
+[submodule "pypi-mirror"]
+	path = pypi-mirror
+	url = https://review.openstack.org/openstack-infra/pypi-mirror.git
+	branch = .
+[submodule "python-storyboardclient"]
+	path = python-storyboardclient
+	url = https://review.openstack.org/openstack-infra/python-storyboardclient.git
+	branch = .
+[submodule "release-tools"]
+	path = release-tools
+	url = https://review.openstack.org/openstack-infra/release-tools.git
+	branch = .
+[submodule "releasestatus"]
+	path = releasestatus
+	url = https://review.openstack.org/openstack-infra/releasestatus.git
+	branch = .
+[submodule "reviewday"]
+	path = reviewday
+	url = https://review.openstack.org/openstack-infra/reviewday.git
+	branch = .
+[submodule "reviewstats"]
+	path = reviewstats
+	url = https://review.openstack.org/openstack-infra/reviewstats.git
+	branch = .
+[submodule "shade"]
+	path = shade
+	url = https://review.openstack.org/openstack-infra/shade.git
+	branch = .
+[submodule "statusbot"]
+	path = statusbot
+	url = https://review.openstack.org/openstack-infra/statusbot.git
+	branch = .
+[submodule "storyboard"]
+	path = storyboard
+	url = https://review.openstack.org/openstack-infra/storyboard.git
+	branch = .
+[submodule "storyboard-webclient"]
+	path = storyboard-webclient
+	url = https://review.openstack.org/openstack-infra/storyboard-webclient.git
+	branch = .
+[submodule "subunit2sql"]
+	path = subunit2sql
+	url = https://review.openstack.org/openstack-infra/subunit2sql.git
+	branch = .
+[submodule "system-config"]
+	path = system-config
+	url = https://review.openstack.org/openstack-infra/system-config.git
+	branch = .
+[submodule "tripleo-ci"]
+	path = tripleo-ci
+	url = https://review.openstack.org/openstack-infra/tripleo-ci.git
+	branch = .
+[submodule "vinz"]
+	path = vinz
+	url = https://review.openstack.org/openstack-infra/vinz.git
+	branch = .
+[submodule "vinz-webclient"]
+	path = vinz-webclient
+	url = https://review.openstack.org/openstack-infra/vinz-webclient.git
+	branch = .
+[submodule "yaml2ical"]
+	path = yaml2ical
+	url = https://review.openstack.org/openstack-infra/yaml2ical.git
+	branch = .
+[submodule "zmq-event-publisher"]
+	path = zmq-event-publisher
+	url = https://review.openstack.org/openstack-infra/zmq-event-publisher.git
+	branch = .
+[submodule "zuul"]
+	path = zuul
+	url = https://review.openstack.org/openstack-infra/zuul.git
+	branch = .
+[submodule "zuul-packaging"]
+	path = zuul-packaging
+	url = https://review.openstack.org/openstack-infra/zuul-packaging.git
+	branch = .
+[submodule "api-site"]
+	path = api-site
+	url = https://review.openstack.org/openstack/api-site.git
+	branch = .
+[submodule "api-wg"]
+	path = api-wg
+	url = https://review.openstack.org/openstack/api-wg.git
+	branch = .
+[submodule "barbican"]
+	path = barbican
+	url = https://review.openstack.org/openstack/barbican.git
+	branch = .
+[submodule "barbican-specs"]
+	path = barbican-specs
+	url = https://review.openstack.org/openstack/barbican-specs.git
+	branch = .
+[submodule "castellan"]
+	path = castellan
+	url = https://review.openstack.org/openstack/castellan.git
 	branch = .
 [submodule "ceilometer"]
 	path = ceilometer
 	url = https://review.openstack.org/openstack/ceilometer.git
 	branch = .
+[submodule "ceilometer-specs"]
+	path = ceilometer-specs
+	url = https://review.openstack.org/openstack/ceilometer-specs.git
+	branch = .
+[submodule "ceilometermiddleware"]
+	path = ceilometermiddleware
+	url = https://review.openstack.org/openstack/ceilometermiddleware.git
+	branch = .
 [submodule "cinder"]
 	path = cinder
 	url = https://review.openstack.org/openstack/cinder.git
+	branch = .
+[submodule "cinder-specs"]
+	path = cinder-specs
+	url = https://review.openstack.org/openstack/cinder-specs.git
 	branch = .
 [submodule "cliff"]
 	path = cliff
 	url = https://review.openstack.org/openstack/cliff.git
 	branch = .
+[submodule "debtcollector"]
+	path = debtcollector
+	url = https://review.openstack.org/openstack/debtcollector.git
+	branch = .
+[submodule "designate"]
+	path = designate
+	url = https://review.openstack.org/openstack/designate.git
+	branch = .
+[submodule "designate-specs"]
+	path = designate-specs
+	url = https://review.openstack.org/openstack/designate-specs.git
+	branch = .
+[submodule "dib-utils"]
+	path = dib-utils
+	url = https://review.openstack.org/openstack/dib-utils.git
+	branch = .
+[submodule "diskimage-builder"]
+	path = diskimage-builder
+	url = https://review.openstack.org/openstack/diskimage-builder.git
+	branch = .
 [submodule "django_openstack_auth"]
 	path = django_openstack_auth
 	url = https://review.openstack.org/openstack/django_openstack_auth.git
+	branch = .
+[submodule "docs-specs"]
+	path = docs-specs
+	url = https://review.openstack.org/openstack/docs-specs.git
+	branch = .
+[submodule "gantt"]
+	path = gantt
+	url = https://review.openstack.org/openstack/gantt.git
 	branch = .
 [submodule "glance"]
 	path = glance
 	url = https://review.openstack.org/openstack/glance.git
 	branch = .
+[submodule "glance-specs"]
+	path = glance-specs
+	url = https://review.openstack.org/openstack/glance-specs.git
+	branch = .
 [submodule "glance_store"]
 	path = glance_store
 	url = https://review.openstack.org/openstack/glance_store.git
+	branch = .
+[submodule "governance"]
+	path = governance
+	url = https://review.openstack.org/openstack/governance.git
+	branch = .
+[submodule "ha-guide"]
+	path = ha-guide
+	url = https://review.openstack.org/openstack/ha-guide.git
 	branch = .
 [submodule "heat"]
 	path = heat
 	url = https://review.openstack.org/openstack/heat.git
 	branch = .
+[submodule "heat-cfntools"]
+	path = heat-cfntools
+	url = https://review.openstack.org/openstack/heat-cfntools.git
+	branch = .
+[submodule "heat-specs"]
+	path = heat-specs
+	url = https://review.openstack.org/openstack/heat-specs.git
+	branch = .
+[submodule "heat-templates"]
+	path = heat-templates
+	url = https://review.openstack.org/openstack/heat-templates.git
+	branch = .
+[submodule "heat-translator"]
+	path = heat-translator
+	url = https://review.openstack.org/openstack/heat-translator.git
+	branch = .
 [submodule "horizon"]
 	path = horizon
 	url = https://review.openstack.org/openstack/horizon.git
+	branch = .
+[submodule "ironic"]
+	path = ironic
+	url = https://review.openstack.org/openstack/ironic.git
+	branch = .
+[submodule "ironic-python-agent"]
+	path = ironic-python-agent
+	url = https://review.openstack.org/openstack/ironic-python-agent.git
+	branch = .
+[submodule "ironic-specs"]
+	path = ironic-specs
+	url = https://review.openstack.org/openstack/ironic-specs.git
 	branch = .
 [submodule "keystone"]
 	path = keystone
 	url = https://review.openstack.org/openstack/keystone.git
 	branch = .
+[submodule "keystone-specs"]
+	path = keystone-specs
+	url = https://review.openstack.org/openstack/keystone-specs.git
+	branch = .
 [submodule "keystonemiddleware"]
 	path = keystonemiddleware
 	url = https://review.openstack.org/openstack/keystonemiddleware.git
+	branch = .
+[submodule "kite"]
+	path = kite
+	url = https://review.openstack.org/openstack/kite.git
+	branch = .
+[submodule "manila"]
+	path = manila
+	url = https://review.openstack.org/openstack/manila.git
 	branch = .
 [submodule "neutron"]
 	path = neutron
 	url = https://review.openstack.org/openstack/neutron.git
 	branch = .
+[submodule "neutron-fwaas"]
+	path = neutron-fwaas
+	url = https://review.openstack.org/openstack/neutron-fwaas.git
+	branch = .
+[submodule "neutron-lbaas"]
+	path = neutron-lbaas
+	url = https://review.openstack.org/openstack/neutron-lbaas.git
+	branch = .
+[submodule "neutron-specs"]
+	path = neutron-specs
+	url = https://review.openstack.org/openstack/neutron-specs.git
+	branch = .
+[submodule "neutron-vpnaas"]
+	path = neutron-vpnaas
+	url = https://review.openstack.org/openstack/neutron-vpnaas.git
+	branch = .
 [submodule "nova"]
 	path = nova
 	url = https://review.openstack.org/openstack/nova.git
 	branch = .
+[submodule "nova-specs"]
+	path = nova-specs
+	url = https://review.openstack.org/openstack/nova-specs.git
+	branch = .
+[submodule "openstack-doc-tools"]
+	path = openstack-doc-tools
+	url = https://review.openstack.org/openstack/openstack-doc-tools.git
+	branch = .
+[submodule "openstack-manuals"]
+	path = openstack-manuals
+	url = https://review.openstack.org/openstack/openstack-manuals.git
+	branch = .
+[submodule "openstack-planet"]
+	path = openstack-planet
+	url = https://review.openstack.org/openstack/openstack-planet.git
+	branch = .
+[submodule "openstack-specs"]
+	path = openstack-specs
+	url = https://review.openstack.org/openstack/openstack-specs.git
+	branch = .
+[submodule "openstackdocstheme"]
+	path = openstackdocstheme
+	url = https://review.openstack.org/openstack/openstackdocstheme.git
+	branch = .
+[submodule "operations-guide"]
+	path = operations-guide
+	url = https://review.openstack.org/openstack/operations-guide.git
+	branch = .
+[submodule "os-apply-config"]
+	path = os-apply-config
+	url = https://review.openstack.org/openstack/os-apply-config.git
+	branch = .
+[submodule "os-cloud-config"]
+	path = os-cloud-config
+	url = https://review.openstack.org/openstack/os-cloud-config.git
+	branch = .
+[submodule "os-collect-config"]
+	path = os-collect-config
+	url = https://review.openstack.org/openstack/os-collect-config.git
+	branch = .
+[submodule "os-net-config"]
+	path = os-net-config
+	url = https://review.openstack.org/openstack/os-net-config.git
+	branch = .
+[submodule "os-refresh-config"]
+	path = os-refresh-config
+	url = https://review.openstack.org/openstack/os-refresh-config.git
+	branch = .
 [submodule "oslo-incubator"]
 	path = oslo-incubator
 	url = https://review.openstack.org/openstack/oslo-incubator.git
+	branch = .
+[submodule "oslo-specs"]
+	path = oslo-specs
+	url = https://review.openstack.org/openstack/oslo-specs.git
 	branch = .
 [submodule "oslo.concurrency"]
 	path = oslo.concurrency
@@ -69,6 +725,10 @@
 [submodule "oslo.config"]
 	path = oslo.config
 	url = https://review.openstack.org/openstack/oslo.config.git
+	branch = .
+[submodule "oslo.context"]
+	path = oslo.context
+	url = https://review.openstack.org/openstack/oslo.context.git
 	branch = .
 [submodule "oslo.db"]
 	path = oslo.db
@@ -90,6 +750,10 @@
 	path = oslo.middleware
 	url = https://review.openstack.org/openstack/oslo.middleware.git
 	branch = .
+[submodule "oslo.policy"]
+	path = oslo.policy
+	url = https://review.openstack.org/openstack/oslo.policy.git
+	branch = .
 [submodule "oslo.rootwrap"]
 	path = oslo.rootwrap
 	url = https://review.openstack.org/openstack/oslo.rootwrap.git
@@ -102,13 +766,25 @@
 	path = oslo.utils
 	url = https://review.openstack.org/openstack/oslo.utils.git
 	branch = .
-[submodule "oslo.version"]
-	path = oslo.version
-	url = https://review.openstack.org/openstack/oslo.version.git
+[submodule "oslo.versionedobjects"]
+	path = oslo.versionedobjects
+	url = https://review.openstack.org/openstack/oslo.versionedobjects.git
 	branch = .
 [submodule "oslo.vmware"]
 	path = oslo.vmware
 	url = https://review.openstack.org/openstack/oslo.vmware.git
+	branch = .
+[submodule "oslosphinx"]
+	path = oslosphinx
+	url = https://review.openstack.org/openstack/oslosphinx.git
+	branch = .
+[submodule "oslotest"]
+	path = oslotest
+	url = https://review.openstack.org/openstack/oslotest.git
+	branch = .
+[submodule "ossa"]
+	path = ossa
+	url = https://review.openstack.org/openstack/ossa.git
 	branch = .
 [submodule "pycadf"]
 	path = pycadf
@@ -118,6 +794,10 @@
 	path = pylockfile
 	url = https://review.openstack.org/openstack/pylockfile.git
 	branch = .
+[submodule "python-barbicanclient"]
+	path = python-barbicanclient
+	url = https://review.openstack.org/openstack/python-barbicanclient.git
+	branch = .
 [submodule "python-ceilometerclient"]
 	path = python-ceilometerclient
 	url = https://review.openstack.org/openstack/python-ceilometerclient.git
@@ -125,6 +805,10 @@
 [submodule "python-cinderclient"]
 	path = python-cinderclient
 	url = https://review.openstack.org/openstack/python-cinderclient.git
+	branch = .
+[submodule "python-designateclient"]
+	path = python-designateclient
+	url = https://review.openstack.org/openstack/python-designateclient.git
 	branch = .
 [submodule "python-ganttclient"]
 	path = python-ganttclient
@@ -138,9 +822,29 @@
 	path = python-heatclient
 	url = https://review.openstack.org/openstack/python-heatclient.git
 	branch = .
+[submodule "python-ironicclient"]
+	path = python-ironicclient
+	url = https://review.openstack.org/openstack/python-ironicclient.git
+	branch = .
 [submodule "python-keystoneclient"]
 	path = python-keystoneclient
 	url = https://review.openstack.org/openstack/python-keystoneclient.git
+	branch = .
+[submodule "python-keystoneclient-federation"]
+	path = python-keystoneclient-federation
+	url = https://review.openstack.org/openstack/python-keystoneclient-federation.git
+	branch = .
+[submodule "python-keystoneclient-kerberos"]
+	path = python-keystoneclient-kerberos
+	url = https://review.openstack.org/openstack/python-keystoneclient-kerberos.git
+	branch = .
+[submodule "python-kiteclient"]
+	path = python-kiteclient
+	url = https://review.openstack.org/openstack/python-kiteclient.git
+	branch = .
+[submodule "python-manilaclient"]
+	path = python-manilaclient
+	url = https://review.openstack.org/openstack/python-manilaclient.git
 	branch = .
 [submodule "python-neutronclient"]
 	path = python-neutronclient
@@ -166,6 +870,18 @@
 	path = python-troveclient
 	url = https://review.openstack.org/openstack/python-troveclient.git
 	branch = .
+[submodule "python-tuskarclient"]
+	path = python-tuskarclient
+	url = https://review.openstack.org/openstack/python-tuskarclient.git
+	branch = .
+[submodule "python-zaqarclient"]
+	path = python-zaqarclient
+	url = https://review.openstack.org/openstack/python-zaqarclient.git
+	branch = .
+[submodule "qa-specs"]
+	path = qa-specs
+	url = https://review.openstack.org/openstack/qa-specs.git
+	branch = .
 [submodule "requirements"]
 	path = requirements
 	url = https://review.openstack.org/openstack/requirements.git
@@ -174,6 +890,26 @@
 	path = sahara
 	url = https://review.openstack.org/openstack/sahara.git
 	branch = .
+[submodule "sahara-dashboard"]
+	path = sahara-dashboard
+	url = https://review.openstack.org/openstack/sahara-dashboard.git
+	branch = .
+[submodule "sahara-extra"]
+	path = sahara-extra
+	url = https://review.openstack.org/openstack/sahara-extra.git
+	branch = .
+[submodule "sahara-image-elements"]
+	path = sahara-image-elements
+	url = https://review.openstack.org/openstack/sahara-image-elements.git
+	branch = .
+[submodule "sahara-specs"]
+	path = sahara-specs
+	url = https://review.openstack.org/openstack/sahara-specs.git
+	branch = .
+[submodule "security-doc"]
+	path = security-doc
+	url = https://review.openstack.org/openstack/security-doc.git
+	branch = .
 [submodule "stevedore"]
 	path = stevedore
 	url = https://review.openstack.org/openstack/stevedore.git
@@ -181,6 +917,14 @@
 [submodule "swift"]
 	path = swift
 	url = https://review.openstack.org/openstack/swift.git
+	branch = .
+[submodule "swift-bench"]
+	path = swift-bench
+	url = https://review.openstack.org/openstack/swift-bench.git
+	branch = .
+[submodule "swift-specs"]
+	path = swift-specs
+	url = https://review.openstack.org/openstack/swift-specs.git
 	branch = .
 [submodule "taskflow"]
 	path = taskflow
@@ -194,7 +938,59 @@
 	path = tempest-lib
 	url = https://review.openstack.org/openstack/tempest-lib.git
 	branch = .
+[submodule "tooz"]
+	path = tooz
+	url = https://review.openstack.org/openstack/tooz.git
+	branch = .
+[submodule "training-guides"]
+	path = training-guides
+	url = https://review.openstack.org/openstack/training-guides.git
+	branch = .
+[submodule "tripleo-heat-templates"]
+	path = tripleo-heat-templates
+	url = https://review.openstack.org/openstack/tripleo-heat-templates.git
+	branch = .
+[submodule "tripleo-image-elements"]
+	path = tripleo-image-elements
+	url = https://review.openstack.org/openstack/tripleo-image-elements.git
+	branch = .
+[submodule "tripleo-incubator"]
+	path = tripleo-incubator
+	url = https://review.openstack.org/openstack/tripleo-incubator.git
+	branch = .
+[submodule "tripleo-puppet-elements"]
+	path = tripleo-puppet-elements
+	url = https://review.openstack.org/openstack/tripleo-puppet-elements.git
+	branch = .
+[submodule "tripleo-specs"]
+	path = tripleo-specs
+	url = https://review.openstack.org/openstack/tripleo-specs.git
+	branch = .
 [submodule "trove"]
 	path = trove
 	url = https://review.openstack.org/openstack/trove.git
+	branch = .
+[submodule "trove-integration"]
+	path = trove-integration
+	url = https://review.openstack.org/openstack/trove-integration.git
+	branch = .
+[submodule "trove-specs"]
+	path = trove-specs
+	url = https://review.openstack.org/openstack/trove-specs.git
+	branch = .
+[submodule "tuskar"]
+	path = tuskar
+	url = https://review.openstack.org/openstack/tuskar.git
+	branch = .
+[submodule "tuskar-ui"]
+	path = tuskar-ui
+	url = https://review.openstack.org/openstack/tuskar-ui.git
+	branch = .
+[submodule "zaqar"]
+	path = zaqar
+	url = https://review.openstack.org/openstack/zaqar.git
+	branch = .
+[submodule "zaqar-specs"]
+	path = zaqar-specs
+	url = https://review.openstack.org/openstack/zaqar-specs.git
 	branch = .

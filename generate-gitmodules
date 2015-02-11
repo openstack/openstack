@@ -12,9 +12,9 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+import json
 
-import urllib
-import yaml
+import requests
 
 TEMPLATE = """[submodule "%s"]
 \tpath = %s
@@ -22,21 +22,27 @@ TEMPLATE = """[submodule "%s"]
 \tbranch = .
 """
 
-CONFIG = ('http://git.openstack.org/cgit/openstack-infra/config/plain/modules'
-          '/openstack_project/files/zuul/layout.yaml')
+# only return projects starting with openstack
+CONFIG = ("https://review.openstack.org:443/projects/?p=openstack")
 
 
 def find_integrated_gate_projects():
-    s = urllib.urlopen(CONFIG)
-    layout = yaml.load(s)
-    # there are multiple allowed gate templates that all interact
-    gates = ('integrated-gate', 'integrated-gate-neutron', 'integrated-gate-sahara')
+    r = requests.get(CONFIG)
+    # strip off first few chars because 'the JSON response body starts with a
+    # magic prefix line that must be stripped before feeding the rest of the
+    # response body to a JSON parser'
+    # https://review.openstack.org/Documentation/rest-api.html
+    gerrit_projects = json.loads(r.text[4:])
+
+    # Ignore openstack-attic
+    orgs = ['openstack/', 'openstack-infra/', 'openstack-dev/']
+    blacklist = ['openstack/openstack']
+
     projects = []
-    for project in layout['projects']:
-        if 'template' in project:
-            for gate in gates:
-                if gate in [x['name'] for x in project['template']]:
-                    projects.append(project['name'])
+    for project in gerrit_projects:
+        if any(project.startswith(org) for org in orgs):
+            if project not in blacklist:
+                projects.append(project)
     return projects
 
 
@@ -50,8 +56,6 @@ def gen_gitmodules(projects):
 
 def main():
     projects = find_integrated_gate_projects()
-    # add extra projects that aren't found by being part of integrated gate
-    projects.append('openstack/oslo-incubator')
     gen_gitmodules(projects)
 
 
