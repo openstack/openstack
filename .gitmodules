@@ -78,10 +78,6 @@
 	path = gearman-plugin
 	url = https://review.openstack.org/openstack-infra/gearman-plugin.git
 	branch = .
-[submodule "gerrit"]
-	path = gerrit
-	url = https://review.openstack.org/openstack-infra/gerrit.git
-	branch = .
 [submodule "gerritbot"]
 	path = gerritbot
 	url = https://review.openstack.org/openstack-infra/gerritbot.git
@@ -130,10 +126,6 @@
 	path = lodgeit
 	url = https://review.openstack.org/openstack-infra/lodgeit.git
 	branch = .
-[submodule "meetbot"]
-	path = meetbot
-	url = https://review.openstack.org/openstack-infra/meetbot.git
-	branch = .
 [submodule "nodepool"]
 	path = nodepool
 	url = https://review.openstack.org/openstack-infra/nodepool.git
@@ -150,10 +142,6 @@
 	path = openstackid
 	url = https://review.openstack.org/openstack-infra/openstackid.git
 	branch = .
-[submodule "openstackweb"]
-	path = openstackweb
-	url = https://review.openstack.org/openstack-infra/openstackweb.git
-	branch = .
 [submodule "os-loganalyze"]
 	path = os-loganalyze
 	url = https://review.openstack.org/openstack-infra/os-loganalyze.git
@@ -161,10 +149,6 @@
 [submodule "project-config"]
 	path = project-config
 	url = https://review.openstack.org/openstack-infra/project-config.git
-	branch = .
-[submodule "publications"]
-	path = publications
-	url = https://review.openstack.org/openstack-infra/publications.git
 	branch = .
 [submodule "puppet-accessbot"]
 	path = puppet-accessbot
@@ -462,14 +446,6 @@
 	path = tripleo-ci
 	url = https://review.openstack.org/openstack-infra/tripleo-ci.git
 	branch = .
-[submodule "vinz"]
-	path = vinz
-	url = https://review.openstack.org/openstack-infra/vinz.git
-	branch = .
-[submodule "vinz-webclient"]
-	path = vinz-webclient
-	url = https://review.openstack.org/openstack-infra/vinz-webclient.git
-	branch = .
 [submodule "yaml2ical"]
 	path = yaml2ical
 	url = https://review.openstack.org/openstack-infra/yaml2ical.git
@@ -481,10 +457,6 @@
 [submodule "zuul"]
 	path = zuul
 	url = https://review.openstack.org/openstack-infra/zuul.git
-	branch = .
-[submodule "zuul-packaging"]
-	path = zuul-packaging
-	url = https://review.openstack.org/openstack-infra/zuul-packaging.git
 	branch = .
 [submodule "api-site"]
 	path = api-site
