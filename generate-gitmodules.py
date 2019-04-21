@@ -24,7 +24,7 @@ TEMPLATE = """[submodule "%s"]
 """
 
 # only return projects starting with openstack
-CONFIG = ("https://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml")
+CONFIG = ("https://opendev.org/openstack/governance/raw/reference/projects.yaml")
 
 
 def find_integrated_gate_repos():
@@ -39,7 +39,7 @@ def find_integrated_gate_repos():
 
 
 def gen_gitmodules(projects):
-    path_template = "https://git.openstack.org/{project}"
+    path_template = "https://opendev.org/{project}"
     short_projects = []
     for project in projects:
         short = os.path.basename(project)
