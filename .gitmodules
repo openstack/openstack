@@ -1,7 +1,3 @@
-[submodule "jenkins-job-builder"]
-	path = jenkins-job-builder
-	url = ../../jjb/jenkins-job-builder.git
-	branch = .
 [submodule "afsmon"]
 	path = afsmon
 	url = ../../opendev/afsmon.git
@@ -462,6 +458,10 @@
 	path = yaml2ical
 	url = ../../opendev/yaml2ical.git
 	branch = .
+[submodule "zone-opendev.org"]
+	path = zone-opendev.org
+	url = ../../opendev/zone-opendev.org.git
+	branch = .
 [submodule "adjutant"]
 	path = adjutant
 	url = ../../openstack/adjutant.git
@@ -493,34 +493,6 @@
 [submodule "ansible-role-container-registry"]
 	path = ansible-role-container-registry
 	url = ../../openstack/ansible-role-container-registry.git
-	branch = .
-[submodule "ansible-role-k8s-cinder"]
-	path = ansible-role-k8s-cinder
-	url = ../../openstack/ansible-role-k8s-cinder.git
-	branch = .
-[submodule "ansible-role-k8s-cookiecutter"]
-	path = ansible-role-k8s-cookiecutter
-	url = ../../openstack/ansible-role-k8s-cookiecutter.git
-	branch = .
-[submodule "ansible-role-k8s-glance"]
-	path = ansible-role-k8s-glance
-	url = ../../openstack/ansible-role-k8s-glance.git
-	branch = .
-[submodule "ansible-role-k8s-keystone"]
-	path = ansible-role-k8s-keystone
-	url = ../../openstack/ansible-role-k8s-keystone.git
-	branch = .
-[submodule "ansible-role-k8s-mariadb"]
-	path = ansible-role-k8s-mariadb
-	url = ../../openstack/ansible-role-k8s-mariadb.git
-	branch = .
-[submodule "ansible-role-k8s-rabbitmq"]
-	path = ansible-role-k8s-rabbitmq
-	url = ../../openstack/ansible-role-k8s-rabbitmq.git
-	branch = .
-[submodule "ansible-role-k8s-tripleo"]
-	path = ansible-role-k8s-tripleo
-	url = ../../openstack/ansible-role-k8s-tripleo.git
 	branch = .
 [submodule "ansible-role-openstack-operations"]
 	path = ansible-role-openstack-operations
@@ -926,6 +898,10 @@
 	path = charm-interface-keystone-domain-backend
 	url = ../../openstack/charm-interface-keystone-domain-backend.git
 	branch = .
+[submodule "charm-interface-keystone-fid-service-provider"]
+	path = charm-interface-keystone-fid-service-provider
+	url = ../../openstack/charm-interface-keystone-fid-service-provider.git
+	branch = .
 [submodule "charm-interface-manila-plugin"]
 	path = charm-interface-manila-plugin
 	url = ../../openstack/charm-interface-manila-plugin.git
@@ -978,6 +954,10 @@
 	path = charm-interface-service-control
 	url = ../../openstack/charm-interface-service-control.git
 	branch = .
+[submodule "charm-interface-websso-fid-service-provider"]
+	path = charm-interface-websso-fid-service-provider
+	url = ../../openstack/charm-interface-websso-fid-service-provider.git
+	branch = .
 [submodule "charm-ironic"]
 	path = charm-ironic
 	url = ../../openstack/charm-ironic.git
@@ -989,6 +969,10 @@
 [submodule "charm-keystone-ldap"]
 	path = charm-keystone-ldap
 	url = ../../openstack/charm-keystone-ldap.git
+	branch = .
+[submodule "charm-keystone-saml-mellon"]
+	path = charm-keystone-saml-mellon
+	url = ../../openstack/charm-keystone-saml-mellon.git
 	branch = .
 [submodule "charm-layer-ceph"]
 	path = charm-layer-ceph
@@ -1009,10 +993,6 @@
 [submodule "charm-layer-openstack-principle"]
 	path = charm-layer-openstack-principle
 	url = ../../openstack/charm-layer-openstack-principle.git
-	branch = .
-[submodule "charm-lxd"]
-	path = charm-lxd
-	url = ../../openstack/charm-lxd.git
 	branch = .
 [submodule "charm-manila"]
 	path = charm-manila
@@ -1082,6 +1062,10 @@
 	path = charm-nova-compute-proxy
 	url = ../../openstack/charm-nova-compute-proxy.git
 	branch = .
+[submodule "charm-nova-lxd"]
+	path = charm-nova-lxd
+	url = ../../openstack/charm-nova-lxd.git
+	branch = .
 [submodule "charm-octavia"]
 	path = charm-octavia
 	url = ../../openstack/charm-octavia.git
@@ -1138,6 +1122,10 @@
 	path = charm-trove
 	url = ../../openstack/charm-trove.git
 	branch = .
+[submodule "charm-vault"]
+	path = charm-vault
+	url = ../../openstack/charm-vault.git
+	branch = .
 [submodule "charms.ceph"]
 	path = charms.ceph
 	url = ../../openstack/charms.ceph.git
@@ -1181,6 +1169,10 @@
 [submodule "cloudkitty-tempest-plugin"]
 	path = cloudkitty-tempest-plugin
 	url = ../../openstack/cloudkitty-tempest-plugin.git
+	branch = .
+[submodule "compute-hyperv"]
+	path = compute-hyperv
+	url = ../../openstack/compute-hyperv.git
 	branch = .
 [submodule "congress"]
 	path = congress
@@ -1289,6 +1281,10 @@
 [submodule "cyborg-specs"]
 	path = cyborg-specs
 	url = ../../openstack/cyborg-specs.git
+	branch = .
+[submodule "cyborg-tempest-plugin"]
+	path = cyborg-tempest-plugin
+	url = ../../openstack/cyborg-tempest-plugin.git
 	branch = .
 [submodule "debtcollector"]
 	path = debtcollector
@@ -1589,6 +1585,10 @@
 [submodule "ldappool"]
 	path = ldappool
 	url = ../../openstack/ldappool.git
+	branch = .
+[submodule "liberasurecode"]
+	path = liberasurecode
+	url = ../../openstack/liberasurecode.git
 	branch = .
 [submodule "loci"]
 	path = loci
@@ -2410,10 +2410,6 @@
 	path = oslo.vmware
 	url = ../../openstack/oslo.vmware.git
 	branch = .
-[submodule "oslosphinx"]
-	path = oslosphinx
-	url = ../../openstack/oslosphinx.git
-	branch = .
 [submodule "oslotest"]
 	path = oslotest
 	url = ../../openstack/oslotest.git
@@ -2669,6 +2665,10 @@
 [submodule "pycadf"]
 	path = pycadf
 	url = ../../openstack/pycadf.git
+	branch = .
+[submodule "pyeclib"]
+	path = pyeclib
+	url = ../../openstack/pyeclib.git
 	branch = .
 [submodule "pymod2pkg"]
 	path = pymod2pkg
@@ -3394,47 +3394,7 @@
 	path = zun-ui
 	url = ../../openstack/zun-ui.git
 	branch = .
-[submodule "groups"]
-	path = groups
-	url = ../../osf/groups.git
-	branch = .
-[submodule "groups-static-pages"]
-	path = groups-static-pages
-	url = ../../osf/groups-static-pages.git
-	branch = .
-[submodule "odsreg"]
-	path = odsreg
-	url = ../../osf/odsreg.git
-	branch = .
-[submodule "openstackid"]
-	path = openstackid
-	url = ../../osf/openstackid.git
-	branch = .
-[submodule "openstackid-resources"]
-	path = openstackid-resources
-	url = ../../osf/openstackid-resources.git
-	branch = .
-[submodule "openstackweb"]
-	path = openstackweb
-	url = ../../osf/openstackweb.git
-	branch = .
-[submodule "ciwatch"]
-	path = ciwatch
-	url = ../../x/ciwatch.git
-	branch = .
-[submodule "gearman-plugin"]
-	path = gearman-plugin
-	url = ../../x/gearman-plugin.git
-	branch = .
-[submodule "gitdm"]
-	path = gitdm
-	url = ../../x/gitdm.git
-	branch = .
-[submodule "infra-ansible"]
-	path = infra-ansible
-	url = ../../x/infra-ansible.git
-	branch = .
-[submodule "zmq-event-publisher"]
-	path = zmq-event-publisher
-	url = ../../x/zmq-event-publisher.git
+[submodule "ansible-role-cloud-launcher"]
+	path = ansible-role-cloud-launcher
+	url = ../../x/ansible-role-cloud-launcher.git
 	branch = .
