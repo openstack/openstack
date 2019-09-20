@@ -2,6 +2,10 @@
 	path = afsmon
 	url = ../../opendev/afsmon.git
 	branch = .
+[submodule "ansible-role-cloud-launcher"]
+	path = ansible-role-cloud-launcher
+	url = ../../opendev/ansible-role-cloud-launcher.git
+	branch = .
 [submodule "ansible-role-puppet"]
 	path = ansible-role-puppet
 	url = ../../opendev/ansible-role-puppet.git
@@ -526,141 +530,13 @@
 	path = ansible-role-thales-hsm
 	url = ../../openstack/ansible-role-thales-hsm.git
 	branch = .
-[submodule "ansible-role-tripleo-aodh"]
-	path = ansible-role-tripleo-aodh
-	url = ../../openstack/ansible-role-tripleo-aodh.git
-	branch = .
-[submodule "ansible-role-tripleo-barbican"]
-	path = ansible-role-tripleo-barbican
-	url = ../../openstack/ansible-role-tripleo-barbican.git
-	branch = .
-[submodule "ansible-role-tripleo-ceilometer"]
-	path = ansible-role-tripleo-ceilometer
-	url = ../../openstack/ansible-role-tripleo-ceilometer.git
-	branch = .
-[submodule "ansible-role-tripleo-cinder"]
-	path = ansible-role-tripleo-cinder
-	url = ../../openstack/ansible-role-tripleo-cinder.git
-	branch = .
-[submodule "ansible-role-tripleo-cookiecutter"]
-	path = ansible-role-tripleo-cookiecutter
-	url = ../../openstack/ansible-role-tripleo-cookiecutter.git
-	branch = .
-[submodule "ansible-role-tripleo-designate"]
-	path = ansible-role-tripleo-designate
-	url = ../../openstack/ansible-role-tripleo-designate.git
-	branch = .
-[submodule "ansible-role-tripleo-glance"]
-	path = ansible-role-tripleo-glance
-	url = ../../openstack/ansible-role-tripleo-glance.git
-	branch = .
-[submodule "ansible-role-tripleo-gnocchi"]
-	path = ansible-role-tripleo-gnocchi
-	url = ../../openstack/ansible-role-tripleo-gnocchi.git
-	branch = .
-[submodule "ansible-role-tripleo-haproxy"]
-	path = ansible-role-tripleo-haproxy
-	url = ../../openstack/ansible-role-tripleo-haproxy.git
-	branch = .
-[submodule "ansible-role-tripleo-heat"]
-	path = ansible-role-tripleo-heat
-	url = ../../openstack/ansible-role-tripleo-heat.git
-	branch = .
-[submodule "ansible-role-tripleo-horizon"]
-	path = ansible-role-tripleo-horizon
-	url = ../../openstack/ansible-role-tripleo-horizon.git
-	branch = .
-[submodule "ansible-role-tripleo-ironic"]
-	path = ansible-role-tripleo-ironic
-	url = ../../openstack/ansible-role-tripleo-ironic.git
-	branch = .
-[submodule "ansible-role-tripleo-keepalived"]
-	path = ansible-role-tripleo-keepalived
-	url = ../../openstack/ansible-role-tripleo-keepalived.git
-	branch = .
-[submodule "ansible-role-tripleo-keystone"]
-	path = ansible-role-tripleo-keystone
-	url = ../../openstack/ansible-role-tripleo-keystone.git
-	branch = .
-[submodule "ansible-role-tripleo-manila"]
-	path = ansible-role-tripleo-manila
-	url = ../../openstack/ansible-role-tripleo-manila.git
-	branch = .
-[submodule "ansible-role-tripleo-memcached"]
-	path = ansible-role-tripleo-memcached
-	url = ../../openstack/ansible-role-tripleo-memcached.git
-	branch = .
-[submodule "ansible-role-tripleo-mistral"]
-	path = ansible-role-tripleo-mistral
-	url = ../../openstack/ansible-role-tripleo-mistral.git
-	branch = .
 [submodule "ansible-role-tripleo-modify-image"]
 	path = ansible-role-tripleo-modify-image
 	url = ../../openstack/ansible-role-tripleo-modify-image.git
 	branch = .
-[submodule "ansible-role-tripleo-neutron"]
-	path = ansible-role-tripleo-neutron
-	url = ../../openstack/ansible-role-tripleo-neutron.git
-	branch = .
-[submodule "ansible-role-tripleo-nova"]
-	path = ansible-role-tripleo-nova
-	url = ../../openstack/ansible-role-tripleo-nova.git
-	branch = .
-[submodule "ansible-role-tripleo-octavia"]
-	path = ansible-role-tripleo-octavia
-	url = ../../openstack/ansible-role-tripleo-octavia.git
-	branch = .
-[submodule "ansible-role-tripleo-opendaylight"]
-	path = ansible-role-tripleo-opendaylight
-	url = ../../openstack/ansible-role-tripleo-opendaylight.git
-	branch = .
-[submodule "ansible-role-tripleo-ovn"]
-	path = ansible-role-tripleo-ovn
-	url = ../../openstack/ansible-role-tripleo-ovn.git
-	branch = .
-[submodule "ansible-role-tripleo-panko"]
-	path = ansible-role-tripleo-panko
-	url = ../../openstack/ansible-role-tripleo-panko.git
-	branch = .
-[submodule "ansible-role-tripleo-qdrouterd"]
-	path = ansible-role-tripleo-qdrouterd
-	url = ../../openstack/ansible-role-tripleo-qdrouterd.git
-	branch = .
-[submodule "ansible-role-tripleo-rabbitmq"]
-	path = ansible-role-tripleo-rabbitmq
-	url = ../../openstack/ansible-role-tripleo-rabbitmq.git
-	branch = .
-[submodule "ansible-role-tripleo-rsyslog-sidecar"]
-	path = ansible-role-tripleo-rsyslog-sidecar
-	url = ../../openstack/ansible-role-tripleo-rsyslog-sidecar.git
-	branch = .
-[submodule "ansible-role-tripleo-sahara"]
-	path = ansible-role-tripleo-sahara
-	url = ../../openstack/ansible-role-tripleo-sahara.git
-	branch = .
-[submodule "ansible-role-tripleo-sensu"]
-	path = ansible-role-tripleo-sensu
-	url = ../../openstack/ansible-role-tripleo-sensu.git
-	branch = .
-[submodule "ansible-role-tripleo-swift"]
-	path = ansible-role-tripleo-swift
-	url = ../../openstack/ansible-role-tripleo-swift.git
-	branch = .
-[submodule "ansible-role-tripleo-tacker"]
-	path = ansible-role-tripleo-tacker
-	url = ../../openstack/ansible-role-tripleo-tacker.git
-	branch = .
-[submodule "ansible-role-tripleo-tempest"]
-	path = ansible-role-tripleo-tempest
-	url = ../../openstack/ansible-role-tripleo-tempest.git
-	branch = .
-[submodule "ansible-role-tripleo-ui"]
-	path = ansible-role-tripleo-ui
-	url = ../../openstack/ansible-role-tripleo-ui.git
-	branch = .
-[submodule "ansible-role-tripleo-zaqar"]
-	path = ansible-role-tripleo-zaqar
-	url = ../../openstack/ansible-role-tripleo-zaqar.git
+[submodule "ansible-role-uwsgi"]
+	path = ansible-role-uwsgi
+	url = ../../openstack/ansible-role-uwsgi.git
 	branch = .
 [submodule "aodh"]
 	path = aodh
@@ -717,10 +593,6 @@
 [submodule "castellan"]
 	path = castellan
 	url = ../../openstack/castellan.git
-	branch = .
-[submodule "castellan-ui"]
-	path = castellan-ui
-	url = ../../openstack/castellan-ui.git
 	branch = .
 [submodule "ceilometer"]
 	path = ceilometer
@@ -793,6 +665,10 @@
 [submodule "charm-cinder-ceph"]
 	path = charm-cinder-ceph
 	url = ../../openstack/charm-cinder-ceph.git
+	branch = .
+[submodule "charm-cinder-purestorage"]
+	path = charm-cinder-purestorage
+	url = ../../openstack/charm-cinder-purestorage.git
 	branch = .
 [submodule "charm-cloudkitty"]
 	path = charm-cloudkitty
@@ -1073,6 +949,10 @@
 [submodule "charm-octavia-dashboard"]
 	path = charm-octavia-dashboard
 	url = ../../openstack/charm-octavia-dashboard.git
+	branch = .
+[submodule "charm-octavia-diskimage-retrofit"]
+	path = charm-octavia-diskimage-retrofit
+	url = ../../openstack/charm-octavia-diskimage-retrofit.git
 	branch = .
 [submodule "charm-odl-controller"]
 	path = charm-odl-controller
@@ -1362,10 +1242,6 @@
 	path = django_openstack_auth
 	url = ../../openstack/django_openstack_auth.git
 	branch = .
-[submodule "docs-specs"]
-	path = docs-specs
-	url = ../../openstack/docs-specs.git
-	branch = .
 [submodule "ec2-api"]
 	path = ec2-api
 	url = ../../openstack/ec2-api.git
@@ -1498,6 +1374,10 @@
 	path = ironic-lib
 	url = ../../openstack/ironic-lib.git
 	branch = .
+[submodule "ironic-prometheus-exporter"]
+	path = ironic-prometheus-exporter
+	url = ../../openstack/ironic-prometheus-exporter.git
+	branch = .
 [submodule "ironic-python-agent"]
 	path = ironic-python-agent
 	url = ../../openstack/ironic-python-agent.git
@@ -1533,6 +1413,18 @@
 [submodule "karma-subunit-reporter"]
 	path = karma-subunit-reporter
 	url = ../../openstack/karma-subunit-reporter.git
+	branch = .
+[submodule "kayobe"]
+	path = kayobe
+	url = ../../openstack/kayobe.git
+	branch = .
+[submodule "kayobe-config"]
+	path = kayobe-config
+	url = ../../openstack/kayobe-config.git
+	branch = .
+[submodule "kayobe-config-dev"]
+	path = kayobe-config-dev
+	url = ../../openstack/kayobe-config-dev.git
 	branch = .
 [submodule "keystone"]
 	path = keystone
@@ -1802,10 +1694,6 @@
 	path = networking-generic-switch
 	url = ../../openstack/networking-generic-switch.git
 	branch = .
-[submodule "networking-generic-switch-tempest-plugin"]
-	path = networking-generic-switch-tempest-plugin
-	url = ../../openstack/networking-generic-switch-tempest-plugin.git
-	branch = .
 [submodule "networking-hyperv"]
 	path = networking-hyperv
 	url = ../../openstack/networking-hyperv.git
@@ -1966,10 +1854,6 @@
 	path = openstack-ansible-ops
 	url = ../../openstack/openstack-ansible-ops.git
 	branch = .
-[submodule "openstack-ansible-os_almanach"]
-	path = openstack-ansible-os_almanach
-	url = ../../openstack/openstack-ansible-os_almanach.git
-	branch = .
 [submodule "openstack-ansible-os_aodh"]
 	path = openstack-ansible-os_aodh
 	url = ../../openstack/openstack-ansible-os_aodh.git
@@ -2050,17 +1934,9 @@
 	path = openstack-ansible-os_mistral
 	url = ../../openstack/openstack-ansible-os_mistral.git
 	branch = .
-[submodule "openstack-ansible-os_molteniron"]
-	path = openstack-ansible-os_molteniron
-	url = ../../openstack/openstack-ansible-os_molteniron.git
-	branch = .
-[submodule "openstack-ansible-os_monasca"]
-	path = openstack-ansible-os_monasca
-	url = ../../openstack/openstack-ansible-os_monasca.git
-	branch = .
-[submodule "openstack-ansible-os_monasca-agent"]
-	path = openstack-ansible-os_monasca-agent
-	url = ../../openstack/openstack-ansible-os_monasca-agent.git
+[submodule "openstack-ansible-os_murano"]
+	path = openstack-ansible-os_murano
+	url = ../../openstack/openstack-ansible-os_murano.git
 	branch = .
 [submodule "openstack-ansible-os_neutron"]
 	path = openstack-ansible-os_neutron
@@ -2090,10 +1966,6 @@
 	path = openstack-ansible-os_sahara
 	url = ../../openstack/openstack-ansible-os_sahara.git
 	branch = .
-[submodule "openstack-ansible-os_searchlight"]
-	path = openstack-ansible-os_searchlight
-	url = ../../openstack/openstack-ansible-os_searchlight.git
-	branch = .
 [submodule "openstack-ansible-os_swift"]
 	path = openstack-ansible-os_swift
 	url = ../../openstack/openstack-ansible-os_swift.git
@@ -2109,14 +1981,6 @@
 [submodule "openstack-ansible-os_trove"]
 	path = openstack-ansible-os_trove
 	url = ../../openstack/openstack-ansible-os_trove.git
-	branch = .
-[submodule "openstack-ansible-os_watcher"]
-	path = openstack-ansible-os_watcher
-	url = ../../openstack/openstack-ansible-os_watcher.git
-	branch = .
-[submodule "openstack-ansible-os_zaqar"]
-	path = openstack-ansible-os_zaqar
-	url = ../../openstack/openstack-ansible-os_zaqar.git
 	branch = .
 [submodule "openstack-ansible-os_zun"]
 	path = openstack-ansible-os_zun
@@ -2485,10 +2349,6 @@
 [submodule "puppet-congress"]
 	path = puppet-congress
 	url = ../../openstack/puppet-congress.git
-	branch = .
-[submodule "puppet-crane"]
-	path = puppet-crane
-	url = ../../openstack/puppet-crane.git
 	branch = .
 [submodule "puppet-designate"]
 	path = puppet-designate
@@ -2862,10 +2722,6 @@
 	path = rally-openstack
 	url = ../../openstack/rally-openstack.git
 	branch = .
-[submodule "release-schedule-generator"]
-	path = release-schedule-generator
-	url = ../../openstack/release-schedule-generator.git
-	branch = .
 [submodule "release-test"]
 	path = release-test
 	url = ../../openstack/release-test.git
@@ -3082,10 +2938,6 @@
 	path = tempest-stress
 	url = ../../openstack/tempest-stress.git
 	branch = .
-[submodule "tempest-tripleo-ui"]
-	path = tempest-tripleo-ui
-	url = ../../openstack/tempest-tripleo-ui.git
-	branch = .
 [submodule "tenks"]
 	path = tenks
 	url = ../../openstack/tenks.git
@@ -3165,10 +3017,6 @@
 [submodule "tripleo-specs"]
 	path = tripleo-specs
 	url = ../../openstack/tripleo-specs.git
-	branch = .
-[submodule "tripleo-ui"]
-	path = tripleo-ui
-	url = ../../openstack/tripleo-ui.git
 	branch = .
 [submodule "tripleo-upgrade"]
 	path = tripleo-upgrade
@@ -3270,10 +3118,6 @@
 	path = xstatic-angular-smart-table
 	url = ../../openstack/xstatic-angular-smart-table.git
 	branch = .
-[submodule "xstatic-angular-ui-router"]
-	path = xstatic-angular-ui-router
-	url = ../../openstack/xstatic-angular-ui-router.git
-	branch = .
 [submodule "xstatic-angular-uuid"]
 	path = xstatic-angular-uuid
 	url = ../../openstack/xstatic-angular-uuid.git
@@ -3358,10 +3202,6 @@
 	path = xstatic-spin
 	url = ../../openstack/xstatic-spin.git
 	branch = .
-[submodule "xstatic-vis"]
-	path = xstatic-vis
-	url = ../../openstack/xstatic-vis.git
-	branch = .
 [submodule "yaql"]
 	path = yaql
 	url = ../../openstack/yaql.git
@@ -3393,8 +3233,4 @@
 [submodule "zun-ui"]
 	path = zun-ui
 	url = ../../openstack/zun-ui.git
-	branch = .
-[submodule "ansible-role-cloud-launcher"]
-	path = ansible-role-cloud-launcher
-	url = ../../x/ansible-role-cloud-launcher.git
 	branch = .
