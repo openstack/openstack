@@ -1,471 +1,3 @@
-[submodule "afsmon"]
-	path = afsmon
-	url = ../../opendev/afsmon.git
-	branch = .
-[submodule "ansible-role-cloud-launcher"]
-	path = ansible-role-cloud-launcher
-	url = ../../opendev/ansible-role-cloud-launcher.git
-	branch = .
-[submodule "ansible-role-puppet"]
-	path = ansible-role-puppet
-	url = ../../opendev/ansible-role-puppet.git
-	branch = .
-[submodule "askbot-theme"]
-	path = askbot-theme
-	url = ../../opendev/askbot-theme.git
-	branch = .
-[submodule "bindep"]
-	path = bindep
-	url = ../../opendev/bindep.git
-	branch = .
-[submodule "elastic-recheck"]
-	path = elastic-recheck
-	url = ../../opendev/elastic-recheck.git
-	branch = .
-[submodule "gear"]
-	path = gear
-	url = ../../opendev/gear.git
-	branch = .
-[submodule "germqtt"]
-	path = germqtt
-	url = ../../opendev/germqtt.git
-	branch = .
-[submodule "gerrit"]
-	path = gerrit
-	url = ../../opendev/gerrit.git
-	branch = .
-[submodule "gerritbot"]
-	path = gerritbot
-	url = ../../opendev/gerritbot.git
-	branch = .
-[submodule "gerritlib"]
-	path = gerritlib
-	url = ../../opendev/gerritlib.git
-	branch = .
-[submodule "git-restack"]
-	path = git-restack
-	url = ../../opendev/git-restack.git
-	branch = .
-[submodule "git-review"]
-	path = git-review
-	url = ../../opendev/git-review.git
-	branch = .
-[submodule "glean"]
-	path = glean
-	url = ../../opendev/glean.git
-	branch = .
-[submodule "grafyaml"]
-	path = grafyaml
-	url = ../../opendev/grafyaml.git
-	branch = .
-[submodule "infra-specs"]
-	path = infra-specs
-	url = ../../opendev/infra-specs.git
-	branch = .
-[submodule "irc-meetings"]
-	path = irc-meetings
-	url = ../../opendev/irc-meetings.git
-	branch = .
-[submodule "jeepyb"]
-	path = jeepyb
-	url = ../../opendev/jeepyb.git
-	branch = .
-[submodule "lodgeit"]
-	path = lodgeit
-	url = ../../opendev/lodgeit.git
-	branch = .
-[submodule "log-classify"]
-	path = log-classify
-	url = ../../opendev/log-classify.git
-	branch = .
-[submodule "log_processor"]
-	path = log_processor
-	url = ../../opendev/log_processor.git
-	branch = .
-[submodule "lpmqtt"]
-	path = lpmqtt
-	url = ../../opendev/lpmqtt.git
-	branch = .
-[submodule "meetbot"]
-	path = meetbot
-	url = ../../opendev/meetbot.git
-	branch = .
-[submodule "mqtt_statsd"]
-	path = mqtt_statsd
-	url = ../../opendev/mqtt_statsd.git
-	branch = .
-[submodule "project-config-example"]
-	path = project-config-example
-	url = ../../opendev/project-config-example.git
-	branch = .
-[submodule "publications"]
-	path = publications
-	url = ../../opendev/publications.git
-	branch = .
-[submodule "puppet-accessbot"]
-	path = puppet-accessbot
-	url = ../../opendev/puppet-accessbot.git
-	branch = .
-[submodule "puppet-ansible"]
-	path = puppet-ansible
-	url = ../../opendev/puppet-ansible.git
-	branch = .
-[submodule "puppet-apparmor"]
-	path = puppet-apparmor
-	url = ../../opendev/puppet-apparmor.git
-	branch = .
-[submodule "puppet-askbot"]
-	path = puppet-askbot
-	url = ../../opendev/puppet-askbot.git
-	branch = .
-[submodule "puppet-asterisk"]
-	path = puppet-asterisk
-	url = ../../opendev/puppet-asterisk.git
-	branch = .
-[submodule "puppet-bandersnatch"]
-	path = puppet-bandersnatch
-	url = ../../opendev/puppet-bandersnatch.git
-	branch = .
-[submodule "puppet-bugdaystats"]
-	path = puppet-bugdaystats
-	url = ../../opendev/puppet-bugdaystats.git
-	branch = .
-[submodule "puppet-bup"]
-	path = puppet-bup
-	url = ../../opendev/puppet-bup.git
-	branch = .
-[submodule "puppet-cgit"]
-	path = puppet-cgit
-	url = ../../opendev/puppet-cgit.git
-	branch = .
-[submodule "puppet-ciwatch"]
-	path = puppet-ciwatch
-	url = ../../opendev/puppet-ciwatch.git
-	branch = .
-[submodule "puppet-dashboard"]
-	path = puppet-dashboard
-	url = ../../opendev/puppet-dashboard.git
-	branch = .
-[submodule "puppet-diskimage_builder"]
-	path = puppet-diskimage_builder
-	url = ../../opendev/puppet-diskimage_builder.git
-	branch = .
-[submodule "puppet-drupal"]
-	path = puppet-drupal
-	url = ../../opendev/puppet-drupal.git
-	branch = .
-[submodule "puppet-elastic_recheck"]
-	path = puppet-elastic_recheck
-	url = ../../opendev/puppet-elastic_recheck.git
-	branch = .
-[submodule "puppet-elasticsearch"]
-	path = puppet-elasticsearch
-	url = ../../opendev/puppet-elasticsearch.git
-	branch = .
-[submodule "puppet-ethercalc"]
-	path = puppet-ethercalc
-	url = ../../opendev/puppet-ethercalc.git
-	branch = .
-[submodule "puppet-etherpad_lite"]
-	path = puppet-etherpad_lite
-	url = ../../opendev/puppet-etherpad_lite.git
-	branch = .
-[submodule "puppet-exim"]
-	path = puppet-exim
-	url = ../../opendev/puppet-exim.git
-	branch = .
-[submodule "puppet-germqtt"]
-	path = puppet-germqtt
-	url = ../../opendev/puppet-germqtt.git
-	branch = .
-[submodule "puppet-gerrit"]
-	path = puppet-gerrit
-	url = ../../opendev/puppet-gerrit.git
-	branch = .
-[submodule "puppet-gerritbot"]
-	path = puppet-gerritbot
-	url = ../../opendev/puppet-gerritbot.git
-	branch = .
-[submodule "puppet-github"]
-	path = puppet-github
-	url = ../../opendev/puppet-github.git
-	branch = .
-[submodule "puppet-grafyaml"]
-	path = puppet-grafyaml
-	url = ../../opendev/puppet-grafyaml.git
-	branch = .
-[submodule "puppet-graphite"]
-	path = puppet-graphite
-	url = ../../opendev/puppet-graphite.git
-	branch = .
-[submodule "puppet-haveged"]
-	path = puppet-haveged
-	url = ../../opendev/puppet-haveged.git
-	branch = .
-[submodule "puppet-hound"]
-	path = puppet-hound
-	url = ../../opendev/puppet-hound.git
-	branch = .
-[submodule "puppet-httpd"]
-	path = puppet-httpd
-	url = ../../opendev/puppet-httpd.git
-	branch = .
-[submodule "puppet-infra-cookiecutter"]
-	path = puppet-infra-cookiecutter
-	url = ../../opendev/puppet-infra-cookiecutter.git
-	branch = .
-[submodule "puppet-infracloud"]
-	path = puppet-infracloud
-	url = ../../opendev/puppet-infracloud.git
-	branch = .
-[submodule "puppet-ipsilon"]
-	path = puppet-ipsilon
-	url = ../../opendev/puppet-ipsilon.git
-	branch = .
-[submodule "puppet-iptables"]
-	path = puppet-iptables
-	url = ../../opendev/puppet-iptables.git
-	branch = .
-[submodule "puppet-jeepyb"]
-	path = puppet-jeepyb
-	url = ../../opendev/puppet-jeepyb.git
-	branch = .
-[submodule "puppet-jenkins"]
-	path = puppet-jenkins
-	url = ../../opendev/puppet-jenkins.git
-	branch = .
-[submodule "puppet-kerberos"]
-	path = puppet-kerberos
-	url = ../../opendev/puppet-kerberos.git
-	branch = .
-[submodule "puppet-kibana"]
-	path = puppet-kibana
-	url = ../../opendev/puppet-kibana.git
-	branch = .
-[submodule "puppet-lodgeit"]
-	path = puppet-lodgeit
-	url = ../../opendev/puppet-lodgeit.git
-	branch = .
-[submodule "puppet-log_processor"]
-	path = puppet-log_processor
-	url = ../../opendev/puppet-log_processor.git
-	branch = .
-[submodule "puppet-logrotate"]
-	path = puppet-logrotate
-	url = ../../opendev/puppet-logrotate.git
-	branch = .
-[submodule "puppet-logstash"]
-	path = puppet-logstash
-	url = ../../opendev/puppet-logstash.git
-	branch = .
-[submodule "puppet-lpmqtt"]
-	path = puppet-lpmqtt
-	url = ../../opendev/puppet-lpmqtt.git
-	branch = .
-[submodule "puppet-mailman"]
-	path = puppet-mailman
-	url = ../../opendev/puppet-mailman.git
-	branch = .
-[submodule "puppet-mediawiki"]
-	path = puppet-mediawiki
-	url = ../../opendev/puppet-mediawiki.git
-	branch = .
-[submodule "puppet-meetbot"]
-	path = puppet-meetbot
-	url = ../../opendev/puppet-meetbot.git
-	branch = .
-[submodule "puppet-mosquitto"]
-	path = puppet-mosquitto
-	url = ../../opendev/puppet-mosquitto.git
-	branch = .
-[submodule "puppet-mqtt_statsd"]
-	path = puppet-mqtt_statsd
-	url = ../../opendev/puppet-mqtt_statsd.git
-	branch = .
-[submodule "puppet-mysql_backup"]
-	path = puppet-mysql_backup
-	url = ../../opendev/puppet-mysql_backup.git
-	branch = .
-[submodule "puppet-nodepool"]
-	path = puppet-nodepool
-	url = ../../opendev/puppet-nodepool.git
-	branch = .
-[submodule "puppet-openafs"]
-	path = puppet-openafs
-	url = ../../opendev/puppet-openafs.git
-	branch = .
-[submodule "puppet-openstack_health"]
-	path = puppet-openstack_health
-	url = ../../opendev/puppet-openstack_health.git
-	branch = .
-[submodule "puppet-openstack_infra_spec_helper"]
-	path = puppet-openstack_infra_spec_helper
-	url = ../../opendev/puppet-openstack_infra_spec_helper.git
-	branch = .
-[submodule "puppet-openstackci"]
-	path = puppet-openstackci
-	url = ../../opendev/puppet-openstackci.git
-	branch = .
-[submodule "puppet-openstackid"]
-	path = puppet-openstackid
-	url = ../../opendev/puppet-openstackid.git
-	branch = .
-[submodule "puppet-os_client_config"]
-	path = puppet-os_client_config
-	url = ../../opendev/puppet-os_client_config.git
-	branch = .
-[submodule "puppet-packagekit"]
-	path = puppet-packagekit
-	url = ../../opendev/puppet-packagekit.git
-	branch = .
-[submodule "puppet-pgsql_backup"]
-	path = puppet-pgsql_backup
-	url = ../../opendev/puppet-pgsql_backup.git
-	branch = .
-[submodule "puppet-phabricator"]
-	path = puppet-phabricator
-	url = ../../opendev/puppet-phabricator.git
-	branch = .
-[submodule "puppet-pip"]
-	path = puppet-pip
-	url = ../../opendev/puppet-pip.git
-	branch = .
-[submodule "puppet-planet"]
-	path = puppet-planet
-	url = ../../opendev/puppet-planet.git
-	branch = .
-[submodule "puppet-project_config"]
-	path = puppet-project_config
-	url = ../../opendev/puppet-project_config.git
-	branch = .
-[submodule "puppet-ptgbot"]
-	path = puppet-ptgbot
-	url = ../../opendev/puppet-ptgbot.git
-	branch = .
-[submodule "puppet-puppet"]
-	path = puppet-puppet
-	url = ../../opendev/puppet-puppet.git
-	branch = .
-[submodule "puppet-redis"]
-	path = puppet-redis
-	url = ../../opendev/puppet-redis.git
-	branch = .
-[submodule "puppet-refstack"]
-	path = puppet-refstack
-	url = ../../opendev/puppet-refstack.git
-	branch = .
-[submodule "puppet-reviewday"]
-	path = puppet-reviewday
-	url = ../../opendev/puppet-reviewday.git
-	branch = .
-[submodule "puppet-simpleproxy"]
-	path = puppet-simpleproxy
-	url = ../../opendev/puppet-simpleproxy.git
-	branch = .
-[submodule "puppet-snmpd"]
-	path = puppet-snmpd
-	url = ../../opendev/puppet-snmpd.git
-	branch = .
-[submodule "puppet-ssh"]
-	path = puppet-ssh
-	url = ../../opendev/puppet-ssh.git
-	branch = .
-[submodule "puppet-ssl_cert_check"]
-	path = puppet-ssl_cert_check
-	url = ../../opendev/puppet-ssl_cert_check.git
-	branch = .
-[submodule "puppet-statusbot"]
-	path = puppet-statusbot
-	url = ../../opendev/puppet-statusbot.git
-	branch = .
-[submodule "puppet-storyboard"]
-	path = puppet-storyboard
-	url = ../../opendev/puppet-storyboard.git
-	branch = .
-[submodule "puppet-subunit2sql"]
-	path = puppet-subunit2sql
-	url = ../../opendev/puppet-subunit2sql.git
-	branch = .
-[submodule "puppet-sudoers"]
-	path = puppet-sudoers
-	url = ../../opendev/puppet-sudoers.git
-	branch = .
-[submodule "puppet-tmpreaper"]
-	path = puppet-tmpreaper
-	url = ../../opendev/puppet-tmpreaper.git
-	branch = .
-[submodule "puppet-translation_checksite"]
-	path = puppet-translation_checksite
-	url = ../../opendev/puppet-translation_checksite.git
-	branch = .
-[submodule "puppet-ulimit"]
-	path = puppet-ulimit
-	url = ../../opendev/puppet-ulimit.git
-	branch = .
-[submodule "puppet-unattended_upgrades"]
-	path = puppet-unattended_upgrades
-	url = ../../opendev/puppet-unattended_upgrades.git
-	branch = .
-[submodule "puppet-unbound"]
-	path = puppet-unbound
-	url = ../../opendev/puppet-unbound.git
-	branch = .
-[submodule "puppet-user"]
-	path = puppet-user
-	url = ../../opendev/puppet-user.git
-	branch = .
-[submodule "puppet-vcsrepo"]
-	path = puppet-vcsrepo
-	url = ../../opendev/puppet-vcsrepo.git
-	branch = .
-[submodule "puppet-yum"]
-	path = puppet-yum
-	url = ../../opendev/puppet-yum.git
-	branch = .
-[submodule "puppet-zanata"]
-	path = puppet-zanata
-	url = ../../opendev/puppet-zanata.git
-	branch = .
-[submodule "puppet-zuul"]
-	path = puppet-zuul
-	url = ../../opendev/puppet-zuul.git
-	branch = .
-[submodule "pynotedb"]
-	path = pynotedb
-	url = ../../opendev/pynotedb.git
-	branch = .
-[submodule "python-storyboardclient"]
-	path = python-storyboardclient
-	url = ../../opendev/python-storyboardclient.git
-	branch = .
-[submodule "statusbot"]
-	path = statusbot
-	url = ../../opendev/statusbot.git
-	branch = .
-[submodule "storyboard"]
-	path = storyboard
-	url = ../../opendev/storyboard.git
-	branch = .
-[submodule "storyboard-webclient"]
-	path = storyboard-webclient
-	url = ../../opendev/storyboard-webclient.git
-	branch = .
-[submodule "subunit2sql"]
-	path = subunit2sql
-	url = ../../opendev/subunit2sql.git
-	branch = .
-[submodule "system-config"]
-	path = system-config
-	url = ../../opendev/system-config.git
-	branch = .
-[submodule "yaml2ical"]
-	path = yaml2ical
-	url = ../../opendev/yaml2ical.git
-	branch = .
-[submodule "zone-opendev.org"]
-	path = zone-opendev.org
-	url = ../../opendev/zone-opendev.org.git
-	branch = .
 [submodule "adjutant"]
 	path = adjutant
 	url = ../../openstack/adjutant.git
@@ -497,6 +29,10 @@
 [submodule "ansible-role-container-registry"]
 	path = ansible-role-container-registry
 	url = ../../openstack/ansible-role-container-registry.git
+	branch = .
+[submodule "ansible-role-lunasa-hsm"]
+	path = ansible-role-lunasa-hsm
+	url = ../../openstack/ansible-role-lunasa-hsm.git
 	branch = .
 [submodule "ansible-role-openstack-operations"]
 	path = ansible-role-openstack-operations
@@ -558,6 +94,10 @@
 	path = barbican-tempest-plugin
 	url = ../../openstack/barbican-tempest-plugin.git
 	branch = .
+[submodule "barbican-ui"]
+	path = barbican-ui
+	url = ../../openstack/barbican-ui.git
+	branch = .
 [submodule "bashate"]
 	path = bashate
 	url = ../../openstack/bashate.git
@@ -586,10 +126,6 @@
 	path = blazar-tempest-plugin
 	url = ../../openstack/blazar-tempest-plugin.git
 	branch = .
-[submodule "bugdaystats"]
-	path = bugdaystats
-	url = ../../openstack/bugdaystats.git
-	branch = .
 [submodule "castellan"]
 	path = castellan
 	url = ../../openstack/castellan.git
@@ -597,10 +133,6 @@
 [submodule "ceilometer"]
 	path = ceilometer
 	url = ../../openstack/ceilometer.git
-	branch = .
-[submodule "ceilometer-powervm"]
-	path = ceilometer-powervm
-	url = ../../openstack/ceilometer-powervm.git
 	branch = .
 [submodule "ceilometermiddleware"]
 	path = ceilometermiddleware
@@ -661,6 +193,10 @@
 [submodule "charm-cinder-backup"]
 	path = charm-cinder-backup
 	url = ../../openstack/charm-cinder-backup.git
+	branch = .
+[submodule "charm-cinder-backup-swift-proxy"]
+	path = charm-cinder-backup-swift-proxy
+	url = ../../openstack/charm-cinder-backup-swift-proxy.git
 	branch = .
 [submodule "charm-cinder-ceph"]
 	path = charm-cinder-ceph
@@ -742,6 +278,10 @@
 	path = charm-interface-cinder-backend
 	url = ../../openstack/charm-interface-cinder-backend.git
 	branch = .
+[submodule "charm-interface-cinder-backup"]
+	path = charm-interface-cinder-backup
+	url = ../../openstack/charm-interface-cinder-backup.git
+	branch = .
 [submodule "charm-interface-dashboard-plugin"]
 	path = charm-interface-dashboard-plugin
 	url = ../../openstack/charm-interface-dashboard-plugin.git
@@ -778,9 +318,21 @@
 	path = charm-interface-keystone-fid-service-provider
 	url = ../../openstack/charm-interface-keystone-fid-service-provider.git
 	branch = .
+[submodule "charm-interface-keystone-notifications"]
+	path = charm-interface-keystone-notifications
+	url = ../../openstack/charm-interface-keystone-notifications.git
+	branch = .
 [submodule "charm-interface-manila-plugin"]
 	path = charm-interface-manila-plugin
 	url = ../../openstack/charm-interface-manila-plugin.git
+	branch = .
+[submodule "charm-interface-mysql-innodb-cluster"]
+	path = charm-interface-mysql-innodb-cluster
+	url = ../../openstack/charm-interface-mysql-innodb-cluster.git
+	branch = .
+[submodule "charm-interface-mysql-router"]
+	path = charm-interface-mysql-router
+	url = ../../openstack/charm-interface-mysql-router.git
 	branch = .
 [submodule "charm-interface-mysql-shared"]
 	path = charm-interface-mysql-shared
@@ -821,6 +373,10 @@
 [submodule "charm-interface-pacemaker-remote"]
 	path = charm-interface-pacemaker-remote
 	url = ../../openstack/charm-interface-pacemaker-remote.git
+	branch = .
+[submodule "charm-interface-placement"]
+	path = charm-interface-placement
+	url = ../../openstack/charm-interface-placement.git
 	branch = .
 [submodule "charm-interface-rabbitmq"]
 	path = charm-interface-rabbitmq
@@ -874,6 +430,10 @@
 	path = charm-manila
 	url = ../../openstack/charm-manila.git
 	branch = .
+[submodule "charm-manila-ganesha"]
+	path = charm-manila-ganesha
+	url = ../../openstack/charm-manila-ganesha.git
+	branch = .
 [submodule "charm-manila-generic"]
 	path = charm-manila-generic
 	url = ../../openstack/charm-manila-generic.git
@@ -898,17 +458,25 @@
 	path = charm-murano
 	url = ../../openstack/charm-murano.git
 	branch = .
+[submodule "charm-mysql-innodb-cluster"]
+	path = charm-mysql-innodb-cluster
+	url = ../../openstack/charm-mysql-innodb-cluster.git
+	branch = .
+[submodule "charm-mysql-router"]
+	path = charm-mysql-router
+	url = ../../openstack/charm-mysql-router.git
+	branch = .
 [submodule "charm-neutron-api"]
 	path = charm-neutron-api
 	url = ../../openstack/charm-neutron-api.git
 	branch = .
-[submodule "charm-neutron-api-genericswitch"]
-	path = charm-neutron-api-genericswitch
-	url = ../../openstack/charm-neutron-api-genericswitch.git
-	branch = .
 [submodule "charm-neutron-api-odl"]
 	path = charm-neutron-api-odl
 	url = ../../openstack/charm-neutron-api-odl.git
+	branch = .
+[submodule "charm-neutron-api-plugin-ovn"]
+	path = charm-neutron-api-plugin-ovn
+	url = ../../openstack/charm-neutron-api-plugin-ovn.git
 	branch = .
 [submodule "charm-neutron-dynamic-routing"]
 	path = charm-neutron-dynamic-routing
@@ -978,6 +546,10 @@
 	path = charm-percona-cluster
 	url = ../../openstack/charm-percona-cluster.git
 	branch = .
+[submodule "charm-placement"]
+	path = charm-placement
+	url = ../../openstack/charm-placement.git
+	branch = .
 [submodule "charm-rabbitmq-server"]
 	path = charm-rabbitmq-server
 	url = ../../openstack/charm-rabbitmq-server.git
@@ -998,6 +570,22 @@
 	path = charm-tempest
 	url = ../../openstack/charm-tempest.git
 	branch = .
+[submodule "charm-trilio-data-mover"]
+	path = charm-trilio-data-mover
+	url = ../../openstack/charm-trilio-data-mover.git
+	branch = .
+[submodule "charm-trilio-dm-api"]
+	path = charm-trilio-dm-api
+	url = ../../openstack/charm-trilio-dm-api.git
+	branch = .
+[submodule "charm-trilio-horizon-plugin"]
+	path = charm-trilio-horizon-plugin
+	url = ../../openstack/charm-trilio-horizon-plugin.git
+	branch = .
+[submodule "charm-trilio-wlm"]
+	path = charm-trilio-wlm
+	url = ../../openstack/charm-trilio-wlm.git
+	branch = .
 [submodule "charm-trove"]
 	path = charm-trove
 	url = ../../openstack/charm-trove.git
@@ -1005,6 +593,14 @@
 [submodule "charm-vault"]
 	path = charm-vault
 	url = ../../openstack/charm-vault.git
+	branch = .
+[submodule "charm-watcher"]
+	path = charm-watcher
+	url = ../../openstack/charm-watcher.git
+	branch = .
+[submodule "charm-watcher-dashboard"]
+	path = charm-watcher-dashboard
+	url = ../../openstack/charm-watcher-dashboard.git
 	branch = .
 [submodule "charms.ceph"]
 	path = charms.ceph
@@ -1053,30 +649,6 @@
 [submodule "compute-hyperv"]
 	path = compute-hyperv
 	url = ../../openstack/compute-hyperv.git
-	branch = .
-[submodule "congress"]
-	path = congress
-	url = ../../openstack/congress.git
-	branch = .
-[submodule "congress-dashboard"]
-	path = congress-dashboard
-	url = ../../openstack/congress-dashboard.git
-	branch = .
-[submodule "congress-specs"]
-	path = congress-specs
-	url = ../../openstack/congress-specs.git
-	branch = .
-[submodule "congress-tempest-plugin"]
-	path = congress-tempest-plugin
-	url = ../../openstack/congress-tempest-plugin.git
-	branch = .
-[submodule "constellations"]
-	path = constellations
-	url = ../../openstack/constellations.git
-	branch = .
-[submodule "contributor-guide"]
-	path = contributor-guide
-	url = ../../openstack/contributor-guide.git
 	branch = .
 [submodule "cookbook-openstack-application-catalog"]
 	path = cookbook-openstack-application-catalog
@@ -1190,10 +762,6 @@
 	path = devstack
 	url = ../../openstack/devstack.git
 	branch = .
-[submodule "devstack-gate"]
-	path = devstack-gate
-	url = ../../openstack/devstack-gate.git
-	branch = .
 [submodule "devstack-plugin-amqp1"]
 	path = devstack-plugin-amqp1
 	url = ../../openstack/devstack-plugin-amqp1.git
@@ -1214,6 +782,14 @@
 	path = devstack-plugin-kafka
 	url = ../../openstack/devstack-plugin-kafka.git
 	branch = .
+[submodule "devstack-plugin-nfs"]
+	path = devstack-plugin-nfs
+	url = ../../openstack/devstack-plugin-nfs.git
+	branch = .
+[submodule "devstack-plugin-open-cas"]
+	path = devstack-plugin-open-cas
+	url = ../../openstack/devstack-plugin-open-cas.git
+	branch = .
 [submodule "devstack-plugin-pika"]
 	path = devstack-plugin-pika
 	url = ../../openstack/devstack-plugin-pika.git
@@ -1233,10 +809,6 @@
 [submodule "dib-utils"]
 	path = dib-utils
 	url = ../../openstack/dib-utils.git
-	branch = .
-[submodule "diskimage-builder"]
-	path = diskimage-builder
-	url = ../../openstack/diskimage-builder.git
 	branch = .
 [submodule "django_openstack_auth"]
 	path = django_openstack_auth
@@ -1341,18 +913,6 @@
 [submodule "horizon"]
 	path = horizon
 	url = ../../openstack/horizon.git
-	branch = .
-[submodule "i18n"]
-	path = i18n
-	url = ../../openstack/i18n.git
-	branch = .
-[submodule "i18n-specs"]
-	path = i18n-specs
-	url = ../../openstack/i18n-specs.git
-	branch = .
-[submodule "infra-manual"]
-	path = infra-manual
-	url = ../../openstack/infra-manual.git
 	branch = .
 [submodule "instack-undercloud"]
 	path = instack-undercloud
@@ -1486,10 +1046,6 @@
 	path = loci
 	url = ../../openstack/loci.git
 	branch = .
-[submodule "logstash-filters"]
-	path = logstash-filters
-	url = ../../openstack/logstash-filters.git
-	branch = .
 [submodule "magnum"]
 	path = magnum
 	url = ../../openstack/magnum.git
@@ -1549,6 +1105,10 @@
 [submodule "metalsmith"]
 	path = metalsmith
 	url = ../../openstack/metalsmith.git
+	branch = .
+[submodule "microversion-parse"]
+	path = microversion-parse
+	url = ../../openstack/microversion-parse.git
 	branch = .
 [submodule "mistral"]
 	path = mistral
@@ -1710,10 +1270,6 @@
 	path = networking-ovn
 	url = ../../openstack/networking-ovn.git
 	branch = .
-[submodule "networking-powervm"]
-	path = networking-powervm
-	url = ../../openstack/networking-powervm.git
-	branch = .
 [submodule "networking-sfc"]
 	path = networking-sfc
 	url = ../../openstack/networking-sfc.git
@@ -1733,10 +1289,6 @@
 [submodule "neutron-fwaas-dashboard"]
 	path = neutron-fwaas-dashboard
 	url = ../../openstack/neutron-fwaas-dashboard.git
-	branch = .
-[submodule "neutron-interconnection"]
-	path = neutron-interconnection
-	url = ../../openstack/neutron-interconnection.git
 	branch = .
 [submodule "neutron-lbaas"]
 	path = neutron-lbaas
@@ -1766,17 +1318,9 @@
 	path = neutron-vpnaas-dashboard
 	url = ../../openstack/neutron-vpnaas-dashboard.git
 	branch = .
-[submodule "nose-html-output"]
-	path = nose-html-output
-	url = ../../openstack/nose-html-output.git
-	branch = .
 [submodule "nova"]
 	path = nova
 	url = ../../openstack/nova.git
-	branch = .
-[submodule "nova-powervm"]
-	path = nova-powervm
-	url = ../../openstack/nova-powervm.git
 	branch = .
 [submodule "nova-specs"]
 	path = nova-specs
@@ -1886,10 +1430,6 @@
 	path = openstack-ansible-os_designate
 	url = ../../openstack/openstack-ansible-os_designate.git
 	branch = .
-[submodule "openstack-ansible-os_freezer"]
-	path = openstack-ansible-os_freezer
-	url = ../../openstack/openstack-ansible-os_freezer.git
-	branch = .
 [submodule "openstack-ansible-os_glance"]
 	path = openstack-ansible-os_glance
 	url = ../../openstack/openstack-ansible-os_glance.git
@@ -1986,14 +1526,6 @@
 	path = openstack-ansible-os_zun
 	url = ../../openstack/openstack-ansible-os_zun.git
 	branch = .
-[submodule "openstack-ansible-pip_install"]
-	path = openstack-ansible-pip_install
-	url = ../../openstack/openstack-ansible-pip_install.git
-	branch = .
-[submodule "openstack-ansible-pip_lock_down"]
-	path = openstack-ansible-pip_lock_down
-	url = ../../openstack/openstack-ansible-pip_lock_down.git
-	branch = .
 [submodule "openstack-ansible-plugins"]
 	path = openstack-ansible-plugins
 	url = ../../openstack/openstack-ansible-plugins.git
@@ -2001,10 +1533,6 @@
 [submodule "openstack-ansible-rabbitmq_server"]
 	path = openstack-ansible-rabbitmq_server
 	url = ../../openstack/openstack-ansible-rabbitmq_server.git
-	branch = .
-[submodule "openstack-ansible-repo_build"]
-	path = openstack-ansible-repo_build
-	url = ../../openstack/openstack-ansible-repo_build.git
 	branch = .
 [submodule "openstack-ansible-repo_server"]
 	path = openstack-ansible-repo_server
@@ -2017,10 +1545,6 @@
 [submodule "openstack-ansible-rsyslog_server"]
 	path = openstack-ansible-rsyslog_server
 	url = ../../openstack/openstack-ansible-rsyslog_server.git
-	branch = .
-[submodule "openstack-ansible-security"]
-	path = openstack-ansible-security
-	url = ../../openstack/openstack-ansible-security.git
 	branch = .
 [submodule "openstack-ansible-specs"]
 	path = openstack-ansible-specs
@@ -2070,29 +1594,13 @@
 	path = openstack-helm-infra
 	url = ../../openstack/openstack-helm-infra.git
 	branch = .
-[submodule "openstack-manuals"]
-	path = openstack-manuals
-	url = ../../openstack/openstack-manuals.git
-	branch = .
-[submodule "openstack-nose"]
-	path = openstack-nose
-	url = ../../openstack/openstack-nose.git
-	branch = .
-[submodule "openstack-planet"]
-	path = openstack-planet
-	url = ../../openstack/openstack-planet.git
+[submodule "openstack-tempest-skiplist"]
+	path = openstack-tempest-skiplist
+	url = ../../openstack/openstack-tempest-skiplist.git
 	branch = .
 [submodule "openstack-virtual-baremetal"]
 	path = openstack-virtual-baremetal
 	url = ../../openstack/openstack-virtual-baremetal.git
-	branch = .
-[submodule "openstack-zuul-jobs"]
-	path = openstack-zuul-jobs
-	url = ../../openstack/openstack-zuul-jobs.git
-	branch = .
-[submodule "openstack-zuul-roles"]
-	path = openstack-zuul-roles
-	url = ../../openstack/openstack-zuul-roles.git
 	branch = .
 [submodule "openstackclient"]
 	path = openstackclient
@@ -2105,10 +1613,6 @@
 [submodule "openstacksdk"]
 	path = openstacksdk
 	url = ../../openstack/openstacksdk.git
-	branch = .
-[submodule "os-acc"]
-	path = os-acc
-	url = ../../openstack/os-acc.git
 	branch = .
 [submodule "os-api-ref"]
 	path = os-api-ref
@@ -2133,10 +1637,6 @@
 [submodule "os-ken"]
 	path = os-ken
 	url = ../../openstack/os-ken.git
-	branch = .
-[submodule "os-loganalyze"]
-	path = os-loganalyze
-	url = ../../openstack/os-loganalyze.git
 	branch = .
 [submodule "os-net-config"]
 	path = os-net-config
@@ -2226,6 +1726,10 @@
 	path = oslo.messaging
 	url = ../../openstack/oslo.messaging.git
 	branch = .
+[submodule "oslo.metrics"]
+	path = oslo.metrics
+	url = ../../openstack/oslo.metrics.git
+	branch = .
 [submodule "oslo.middleware"]
 	path = oslo.middleware
 	url = ../../openstack/oslo.middleware.git
@@ -2286,6 +1790,10 @@
 	path = oswin-tempest-plugin
 	url = ../../openstack/oswin-tempest-plugin.git
 	branch = .
+[submodule "ovn-octavia-provider"]
+	path = ovn-octavia-provider
+	url = ../../openstack/ovn-octavia-provider.git
+	branch = .
 [submodule "ovsdbapp"]
 	path = ovsdbapp
 	url = ../../openstack/ovsdbapp.git
@@ -2313,14 +1821,6 @@
 [submodule "placement"]
 	path = placement
 	url = ../../openstack/placement.git
-	branch = .
-[submodule "project-config"]
-	path = project-config
-	url = ../../openstack/project-config.git
-	branch = .
-[submodule "ptgbot"]
-	path = ptgbot
-	url = ../../openstack/ptgbot.git
 	branch = .
 [submodule "puppet-aodh"]
 	path = puppet-aodh
@@ -2562,10 +2062,6 @@
 	path = python-cloudkittyclient
 	url = ../../openstack/python-cloudkittyclient.git
 	branch = .
-[submodule "python-congressclient"]
-	path = python-congressclient
-	url = ../../openstack/python-congressclient.git
-	branch = .
 [submodule "python-cyborgclient"]
 	path = python-cyborgclient
 	url = ../../openstack/python-cyborgclient.git
@@ -2746,14 +2242,6 @@
 	path = requirements
 	url = ../../openstack/requirements.git
 	branch = .
-[submodule "reviewday"]
-	path = reviewday
-	url = ../../openstack/reviewday.git
-	branch = .
-[submodule "reviewstats"]
-	path = reviewstats
-	url = ../../openstack/reviewstats.git
-	branch = .
 [submodule "rpm-packaging"]
 	path = rpm-packaging
 	url = ../../openstack/rpm-packaging.git
@@ -2878,6 +2366,10 @@
 	path = sushy
 	url = ../../openstack/sushy.git
 	branch = .
+[submodule "sushy-cli"]
+	path = sushy-cli
+	url = ../../openstack/sushy-cli.git
+	branch = .
 [submodule "sushy-tools"]
 	path = sushy-tools
 	url = ../../openstack/sushy-tools.git
@@ -2950,14 +2442,6 @@
 	path = tosca-parser
 	url = ../../openstack/tosca-parser.git
 	branch = .
-[submodule "training-guides"]
-	path = training-guides
-	url = ../../openstack/training-guides.git
-	branch = .
-[submodule "training-labs"]
-	path = training-labs
-	url = ../../openstack/training-labs.git
-	branch = .
 [submodule "tricircle"]
 	path = tricircle
 	url = ../../openstack/tricircle.git
@@ -2997,6 +2481,10 @@
 [submodule "tripleo-ipsec"]
 	path = tripleo-ipsec
 	url = ../../openstack/tripleo-ipsec.git
+	branch = .
+[submodule "tripleo-operator-ansible"]
+	path = tripleo-operator-ansible
+	url = ../../openstack/tripleo-operator-ansible.git
 	branch = .
 [submodule "tripleo-puppet-elements"]
 	path = tripleo-puppet-elements
@@ -3046,9 +2534,13 @@
 	path = ui-cookiecutter
 	url = ../../openstack/ui-cookiecutter.git
 	branch = .
-[submodule "upstream-institute-virtual-environment"]
-	path = upstream-institute-virtual-environment
-	url = ../../openstack/upstream-institute-virtual-environment.git
+[submodule "validations-common"]
+	path = validations-common
+	url = ../../openstack/validations-common.git
+	branch = .
+[submodule "validations-libs"]
+	path = validations-libs
+	url = ../../openstack/validations-libs.git
 	branch = .
 [submodule "virtualbmc"]
 	path = virtualbmc
@@ -3142,6 +2634,14 @@
 	path = xstatic-d3
 	url = ../../openstack/xstatic-d3.git
 	branch = .
+[submodule "xstatic-dagre"]
+	path = xstatic-dagre
+	url = ../../openstack/xstatic-dagre.git
+	branch = .
+[submodule "xstatic-dagre-d3"]
+	path = xstatic-dagre-d3
+	url = ../../openstack/xstatic-dagre-d3.git
+	branch = .
 [submodule "xstatic-filesaver"]
 	path = xstatic-filesaver
 	url = ../../openstack/xstatic-filesaver.git
@@ -3149,6 +2649,10 @@
 [submodule "xstatic-font-awesome"]
 	path = xstatic-font-awesome
 	url = ../../openstack/xstatic-font-awesome.git
+	branch = .
+[submodule "xstatic-graphlib"]
+	path = xstatic-graphlib
+	url = ../../openstack/xstatic-graphlib.git
 	branch = .
 [submodule "xstatic-hogan"]
 	path = xstatic-hogan
@@ -3182,6 +2686,10 @@
 	path = xstatic-json2yaml
 	url = ../../openstack/xstatic-json2yaml.git
 	branch = .
+[submodule "xstatic-lodash"]
+	path = xstatic-lodash
+	url = ../../openstack/xstatic-lodash.git
+	branch = .
 [submodule "xstatic-magic-search"]
 	path = xstatic-magic-search
 	url = ../../openstack/xstatic-magic-search.git
@@ -3189,6 +2697,14 @@
 [submodule "xstatic-mdi"]
 	path = xstatic-mdi
 	url = ../../openstack/xstatic-mdi.git
+	branch = .
+[submodule "xstatic-moment"]
+	path = xstatic-moment
+	url = ../../openstack/xstatic-moment.git
+	branch = .
+[submodule "xstatic-moment-timezone"]
+	path = xstatic-moment-timezone
+	url = ../../openstack/xstatic-moment-timezone.git
 	branch = .
 [submodule "xstatic-rickshaw"]
 	path = xstatic-rickshaw
