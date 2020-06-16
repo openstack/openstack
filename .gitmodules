@@ -2170,10 +2170,6 @@
 	path = python-tackerclient
 	url = ../../openstack/python-tackerclient.git
 	branch = .
-[submodule "python-tricircleclient"]
-	path = python-tricircleclient
-	url = ../../openstack/python-tricircleclient.git
-	branch = .
 [submodule "python-tripleoclient"]
 	path = python-tripleoclient
 	url = ../../openstack/python-tripleoclient.git
@@ -2382,10 +2378,6 @@
 	path = swift-bench
 	url = ../../openstack/swift-bench.git
 	branch = .
-[submodule "swift-specs"]
-	path = swift-specs
-	url = ../../openstack/swift-specs.git
-	branch = .
 [submodule "tacker"]
 	path = tacker
 	url = ../../openstack/tacker.git
@@ -2441,10 +2433,6 @@
 [submodule "tosca-parser"]
 	path = tosca-parser
 	url = ../../openstack/tosca-parser.git
-	branch = .
-[submodule "tricircle"]
-	path = tricircle
-	url = ../../openstack/tricircle.git
 	branch = .
 [submodule "tripleo-ansible"]
 	path = tripleo-ansible
@@ -2581,6 +2569,10 @@
 [submodule "whereto"]
 	path = whereto
 	url = ../../openstack/whereto.git
+	branch = .
+[submodule "whitebox-tempest-plugin"]
+	path = whitebox-tempest-plugin
+	url = ../../openstack/whitebox-tempest-plugin.git
 	branch = .
 [submodule "xstatic-angular"]
 	path = xstatic-angular
