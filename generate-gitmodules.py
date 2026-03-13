@@ -28,7 +28,7 @@ CONFIG = ("https://opendev.org/openstack/governance/raw/reference/projects.yaml"
 
 
 def find_integrated_gate_repos():
-    r = requests.get(CONFIG)
+    r = requests.get(CONFIG, timeout=10.0)
     projects = yaml.safe_load(r.text)
     repos = []
     for project in projects.values():
