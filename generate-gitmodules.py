@@ -28,7 +28,7 @@ CONFIG = ("https://opendev.org/openstack/governance/raw/reference/projects.yaml"
 
 
 def find_integrated_gate_repos():
-    r = requests.get(CONFIG)
+    r = requests.get(CONFIG, timeout=10.0)
     projects = yaml.safe_load(r.text)
     repos = []
     for project in projects.values():
@@ -46,7 +46,7 @@ def gen_gitmodules(projects):
         short_projects.append(short)
         path = path_template.format(project=project)
         if not os.path.isdir(short):
-            os.system('git submodule add {path}'.format(path=path))
+            subprocess.run(['git', 'submodule', 'add', path], check=True)
     for existing in os.listdir('.'):
         if not os.path.isdir(existing) or existing.startswith('.'):
             continue
